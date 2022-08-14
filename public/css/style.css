@@ -19,6 +19,8 @@
 .topbar-responsive .menu a {
   color: #f6ffe9;
   transition: color 0.15s ease-in;
+  font-family: Work Sans;
+  font-weight: 100;
 }
 
 .topbar-responsive .menu a:hover {
