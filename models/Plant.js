@@ -44,4 +44,4 @@ Plant.init(
   }
 );
 
-module.exports={Plant};
+module.exports = Plant;
