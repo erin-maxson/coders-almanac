@@ -1,34 +1,36 @@
 <link rel="stylesheet" href="/css/style.css">
 
-<div class="row">
-  <div class="col-auto">
-    <h2>Welcome, {{name}}!</h2>
-  </div>
+<div class="translucent-form-overlay">
+  <form>
+    <h3>Add a New Plant with Seeding Dates</h3>
+    <div class="row columns">
+      <label>Plant Name
+        <input type="text" name="plant-name" placeholder="Any">
+      </label>
+    </div>
+     <div class="row columns">
+      <label>Plant Seedlings or Transplants (MM/DD)
+        <input type="text" name="seedlings-date" placeholder="Any">
+      </label>
+    </div>
+    <div class="row columns">
+      <label>Fall Seeding Date - Start Seeds Outdoors (MM/DD)
+        <input type="text" name="fall-date" placeholder="Any">
+      </label>
+    </div>
+    <div class="row columns">
+      <label>Spring Seeding Date - Start Seeds Outdoors (MM/DD)
+         <input type="text" name="spring-date" placeholder="Any">
+      </label>
+    </div>
+    <button type="button" class="primary button expanded search-button">
+      Submit
+    </button>
+ </form>
 </div>
 
-<div class="row mt-4">
-  <div class="col-md-6">
-    <h3>Add a New Plant with Planting Dates:</h3>
 
-    <form class="form new-project-form">
-      <div class="form-group">
-        <label for="project-name">Add New Plant Name:</label>
-        <input class="form-input" type="text" id="project-name" name="project-name" />
-      </div>
-      <div class="form-group">
-        <label for="project-funding">Fall Planting Date:</label>
-        <input class="form-input" type="number" id="project-funding" name="project-funding" />
-      </div>
-      <div class="form-group">
-        <label for="project-desc">Spring Planting Date:</label>
-        <textarea class="form-input" id="project-desc" name="project-desc"></textarea>
-      </div>
-
-      <div class="form-group">
-        <button type="submit" class="btn btn-primary">Create</button>
-      </div>
-    </form>
-  </div>
+{{!-- have not touched this yet, EM --}}
 
   {{#if projects.length}}
   <div class="col-md-6 project-list">
