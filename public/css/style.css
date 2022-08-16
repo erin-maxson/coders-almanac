@@ -154,3 +154,30 @@ header, .project:not(:last-child) {
   }
 }
 
+
+/* Login form on login.handlebars */
+
+
+
+/* Signup form on login.handlebars */
+form .form-icons {
+  text-align: center;
+}
+
+form .form-icons h4 {
+  margin-bottom: 1rem;
+}
+
+form .form-icons .input-group-label {
+  background-color: #1779ba;
+  border-color: #1779ba;
+}
+
+form .form-icons .input-group-field {
+  border-color: #1779ba;
+}
+
+form .form-icons .fa {
+  color: white;
+  width: 1rem;
+}
