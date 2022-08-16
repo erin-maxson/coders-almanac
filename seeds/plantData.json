@@ -1,6 +1,21 @@
 [
   {
-    "name": "Argula",
-    "filename": "coders almanac.png" 
+    "name": "Arugula",
+    "description": "Also known as “rocket” or “roquette,” arugula is a fast-growing, cool-season leafy green that adds a tangy, mustard-like flavor to salads.",
+    "filename": "arugula.jpg" 
+  },
+  {
+    "name": "Basil",
+    "description": "Basil is a warm-weather, fragrant herb that tastes great in many dishes—including the beloved homemade pesto! Plant seeds or transplants after all danger of frost has passed and soil is warm, and it will yield an abundant harvest within weeks. Keep harvesting the leaves to keep the plant going strong.",
+    "filename": "basil.jpg"
+  },
+  {
+    "name": "Beets",
+    "description": "Beets grow easily and you won’t have to wait long to harvest their tasty roots. You can eat their green tops, too, so they’re a dual-purpose crop!",
+    "filename": "beets.jpg"
+  },
+  {
+    "name": "Bell Peppers",
+    "description": "Peppers are a warm-season crop and come in a variety of colors, shapes, and sizes. More good news: Most varieties resist common garden pests and diseases!"
   }
 ]
