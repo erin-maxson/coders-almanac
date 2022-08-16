@@ -24,19 +24,15 @@ Plant.init(
     },
     plant_Season: {
       type: DataTypes.STRING,
-      allowNullL: false,
     },
     seeding_date_indoor: {
       type: DataTypes.DATE,
-      allowNull: false,
     },
     seeding_date_outdoor: {
       type: DataTypes.DATE,
-      allowNull: false,
     },
     seedling_date: {
       type: DataTypes.DATE,
-      allowNull: false,
     },
     user_id: {
       type: DataTypes.INTEGER,

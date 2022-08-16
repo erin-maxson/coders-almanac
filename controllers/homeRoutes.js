@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Plant, User } = require('../models');
+const { Plant, User, Comment } = require('../models');
 const withAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
@@ -37,10 +37,10 @@ router.get('/plants/:id', async (req, res) => {
       ],
     });
 
-    const plants = plantData.get({ plain: true });
+    const plant = plantData.get({ plain: true });
     // the 'plants', will need to be in the handlebar file name
-    res.render('plants', {
-      ...plants,
+    res.render('plant', {
+      ...plant,
       logged_in: req.session.logged_in
     });
   } catch (err) {
@@ -49,7 +49,7 @@ router.get('/plants/:id', async (req, res) => {
 });
 
 // Use withAuth middleware to prevent access to route
-router.get('/profile', withAuth, async (req, res) => {
+router.get('/form', withAuth, async (req, res) => {
   try {
     // Find the logged in user based on the session ID
     const userData = await User.findByPk(req.session.user_id, {
@@ -59,7 +59,7 @@ router.get('/profile', withAuth, async (req, res) => {
 
     const user = userData.get({ plain: true });
 
-    res.render('profile', {
+    res.render('form', {
       ...user,
       logged_in: true
     });
