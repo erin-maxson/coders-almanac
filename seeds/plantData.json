@@ -16,6 +16,17 @@
   },
   {
     "name": "Bell Peppers",
-    "description": "Peppers are a warm-season crop and come in a variety of colors, shapes, and sizes. More good news: Most varieties resist common garden pests and diseases!"
+    "description": "Peppers are a warm-season crop and come in a variety of colors, shapes, and sizes. More good news: Most varieties resist common garden pests and diseases!",
+    "filename": "bell-peppers.jpg"
+  },
+  {
+    "name": "Broccoli",
+    "description": "Broccoli is a cool-season vegetable planted in spring. The deliciously tender spears of garden-grown broccoli are also incredibly good for you—the “crown jewel of nutrition.”",
+    "filename": "broccoli.jpg"
+  },
+  {
+    "name": "Cabbage",
+    "description": "Cabbage is a cool-season leafy vegetable — which is packed with vitamins — suited to both spring and fall!",
+    "filename": "cabbage.jpg"
   }
 ]
