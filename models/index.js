@@ -22,4 +22,5 @@ Plant.hasOne(Details, {
 
 
 
+
 module.exports = { User, Plant, Details };
