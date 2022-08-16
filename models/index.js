@@ -15,7 +15,7 @@ Details.belongsTo(Plant, {
   foreignKey: 'plant_id'
 });
 
-Plant.hasMany(Details, {
+Plant.hasOne(Details, {
   foreignKey: 'plant_id',
   onDelete: "CASCADE"
 });
