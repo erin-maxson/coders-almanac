@@ -26,31 +26,31 @@ Plant.init(
       type: DataTypes.STRING,
     },
     fall_ind_seed: {
-      type: DataTypes.DATE,
+      type: DataTypes.DATEONLY,
     },
     fall_out_seed: {
-      type: DataTypes.DATE,
+      type: DataTypes.DATEONLY,
     },
     fall_out_seedling: {
-      type: DataTypes.DATE,
+      type: DataTypes.DATEONLY,
     },
     spring_ind_seedStr: {
-      type: DataTypes.DATE,
+      type: DataTypes.DATEONLY,
     },
     spring_ind_seedEnd: {
-      type: DataTypes.DATE,
+      type: DataTypes.DATEONLY,
     },
     spring_out_seedStr: {
-      type: DataTypes.DATE,
+      type: DataTypes.DATEONLY,
     },
     spring_out_seedEnd: {
-      type: DataTypes.DATE,
+      type: DataTypes.DATEONLY,
     },
     spring_transStr: {
-      type: DataTypes.DATE,
+      type: DataTypes.DATEONLY,
     },
     spring_transEnd: {
-      type: DataTypes.DATE,
+      type: DataTypes.DATEONLY,
     },
     user_id: {
       type: DataTypes.INTEGER,
