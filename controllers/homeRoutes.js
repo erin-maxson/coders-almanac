@@ -26,8 +26,8 @@ router.get('/', async (req, res) => {
     res.status(500).json(err);
   }
 });
-
-router.get('/plants/:id', async (req, res) => {
+// Single Plant Page after selection from the homepage
+router.get('/plants/:id', withAuth, async (req, res) => {
   try {
     const plantData = await Plant.findByPk(req.params.id, {
       include: [

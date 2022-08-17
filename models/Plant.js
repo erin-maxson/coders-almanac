@@ -25,13 +25,31 @@ Plant.init(
     plant_Season: {
       type: DataTypes.STRING,
     },
-    seeding_date_indoor: {
+    fall_ind_seed: {
       type: DataTypes.DATE,
     },
-    seeding_date_outdoor: {
+    fall_out_seed: {
       type: DataTypes.DATE,
     },
-    seedling_date: {
+    fall_out_seedling: {
+      type: DataTypes.DATE,
+    },
+    spring_ind_seedStr: {
+      type: DataTypes.DATE,
+    },
+    spring_ind_seedEnd: {
+      type: DataTypes.DATE,
+    },
+    spring_out_seedStr: {
+      type: DataTypes.DATE,
+    },
+    spring_out_seedEnd: {
+      type: DataTypes.DATE,
+    },
+    spring_transStr: {
+      type: DataTypes.DATE,
+    },
+    spring_transEnd: {
       type: DataTypes.DATE,
     },
     user_id: {
