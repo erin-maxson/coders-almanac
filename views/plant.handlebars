@@ -12,3 +12,35 @@
     <button class="btn btn-primary">Fund this Project!</button>
   </p>
 </div>
+
+<div class="card-flex-article card">
+  <div class="card-image">
+    <img src="/assets/images/plants/tomatoes.jpg">
+    <span class="label alert card-tag">#Logo</span>
+  </div>
+  <div class="card-section">
+    <h3 class="article-title">{{plant.name}}</h3>
+    <p class="article-summary">{{plant.description}}</p>
+    <ul>🌱 Seedling & Transplant Date: <span class"seedling date"></span></ul>
+    <ul>🍁 Fall Planting Date: <span class="fall-planting"></span></ul>
+    <ul>🌸 Spring Planting Date: <span class="spring-planting"></span></ul>
+  </div>
+   <div class="card-divider align-middle">
+     <div class="avatar with-add-icon">
+       <img src="https://placehold.it/35" alt="avatar" />
+       <i class="fa fa-plus-circle" aria-hidden="true"></i>
+     </div>
+    <div class="user-info">
+      <p class="user-name">Added by {{user.name}}</p>
+    </div>
+  </div>
+
+{{!-- possible favoriting of the plant card by users in case we want to do this, EM --}}
+    {{!-- <div class="card-actions">
+      <i class="fa fa-heart-o" aria-hidden="true"></i>
+      <i class="fa fa-plus" aria-hidden="true"></i>
+      <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+    </div> --}}
+  </div>
+</div>
+

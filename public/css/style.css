@@ -181,3 +181,85 @@ form .form-icons .fa {
   color: white;
   width: 1rem;
 }
+
+
+/* plant cards (homepage) */
+
+.card-flex-article .card-divider {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: transparent;
+}
+
+.card-flex-article .card-divider p {
+  margin-bottom: 0;
+}
+
+.card-flex-article .card-divider .avatar {
+  margin-right: 0.75rem;
+}
+
+.card-flex-article .avatar {
+  position: relative;
+}
+
+.card-flex-article .avatar img {
+  border-radius: 50%;
+}
+
+.card-flex-article .avatar.with-add-icon .fa {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #cc4b37;
+}
+
+.card-flex-article .card-actions .fa:not(:last-of-type) {
+  margin-right: 1rem;
+}
+
+.card-flex-article .card-image {
+  position: relative;
+}
+
+.card-flex-article .card-tag {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 3%;
+}
+
+.card-flex-article .card-section .article-title {
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  font-size: 1.75rem;
+  margin-bottom: 0;
+}
+
+.card-flex-article .card-section .article-details {
+  font-size: 0.75rem;
+  opacity: 0.5;
+  padding-bottom: 0.75rem;
+}
+
+.card-flex-article .card-section .article-summary {
+  font-family: 'Merriweather', serif;
+}
+
+.card-flex-article .user-info {
+  font-size: 0.75rem;
+}
+
+.card-flex-article .user-info .user-name {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.card-flex-article .notability {
+  font-size: 0.75rem;
+  opacity: 0.5;
+}
+
