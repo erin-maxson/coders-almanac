@@ -2,6 +2,38 @@ const router = require('express').Router();
 const { Project } = require('../../models');
 const withAuth = require('../../utils/auth');
 
+router.get('/', async, (req,res)=>{
+  try {
+    const plantData = await Plant.findAll({
+      include: [
+        User,
+        Comment
+      ]
+    });
+
+    res.json(plantData)
+  }
+  catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+router.get('/:id', async, (req,res) => {
+  try {
+    const plantData = await Plant.findByPk(req.params.id, {
+      include: [
+        User,
+        Comment
+      ]
+    });
+
+    res.json(plantData);
+  }
+  catch (err) {
+    res.status(500).json(err);
+  }
+});
+
 router.post('/', withAuth, async (req, res) => {
   try {
     const newProject = await Project.create({
