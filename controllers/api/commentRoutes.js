@@ -38,8 +38,8 @@ router.post('/', withAuth, async, (req,res) => {
     try {
         const commentData = await Comment.create({
             body: req.body.body,
-            userId: req.session.user.id,
-            plantId: req.body.plantId
+            user_id: req.session.user.id,
+            plant_id: req.body.plantId
         });
 
         res.json(commentData);
