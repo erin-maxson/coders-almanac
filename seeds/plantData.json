@@ -2,206 +2,372 @@
   {
     "name": "Arugula",
     "description": "Also known as “rocket” or “roquette,” arugula is a fast-growing, cool-season leafy green that adds a tangy, mustard-like flavor to salads.",
-    "filename": "arugula.jpg" 
+    "filename": "arugula.jpg",
+    "fall_out_seed": "2022-09-15",
+    "spring_out_seedStr": "2022-04-13",
+    "spring_out_seedEnd": "2022-04-27"
   },
   {
     "name": "Basil",
     "description": "Basil is a warm-weather, fragrant herb that tastes great in many dishes—including the beloved homemade pesto! Plant seeds or transplants after all danger of frost has passed and soil is warm, and it will yield an abundant harvest within weeks. Keep harvesting the leaves to keep the plant going strong.",
-    "filename": "basil.jpg"
+    "filename": "basil.jpg",
+    "spring_ind_seedStr": "2022-03-01",
+    "spring_ind_seedEnd": "2022-03-16",
+    "spring_transStr": "2022-04-27",
+    "spring_transEnd": "2022-05-18"
   },
   {
     "name": "Beets",
     "description": "Beets grow easily and you won’t have to wait long to harvest their tasty roots. You can eat their green tops, too, so they’re a dual-purpose crop!",
-    "filename": "beets.jpg"
+    "filename": "beets.jpg",
+    "fall_out_seed": "2022-09-05",
+    "spring_out_seedStr": "2022-04-13",
+    "spring_out_seedEnd": "2022-05-04"
   },
   {
     "name": "Bell Peppers",
     "description": "Peppers are a warm-season crop and come in a variety of colors, shapes, and sizes. More good news: Most varieties resist common garden pests and diseases!",
-    "filename": "bell-peppers.jpg"
+    "filename": "bell-peppers.jpg",
+    "fall_ind_seed": "2022-05-07",
+    "fall_out_seedling": "2022-07-02",
+    "spring_ind_seedStr": "2022-03-01",
+    "spring_ind_seedEnd": "2022-03-16",
+    "spring_transStr": "2022-03-30",
+    "spring_transEnd": "2022-04-20"
   },
   {
     "name": "Broccoli",
     "description": "Broccoli is a cool-season vegetable planted in spring. The deliciously tender spears of garden-grown broccoli are also incredibly good for you—the “crown jewel of nutrition.”",
-    "filename": "broccoli.jpg"
+    "filename": "broccoli.jpg",
+    "fall_ind_seed": "2022-07-09",
+    "fall_out_seedling": "2022-08-06",
+    "spring_ind_seedStr": "2022-03-01",
+    "spring_ind_seedEnd": "2022-03-16",
+    "spring_transStr": "2022-03-30",
+    "spring_transEnd": "2022-04-20"
   },
   {
     "name": "Cabbage",
     "description": "Cabbage is a cool-season leafy vegetable — which is packed with vitamins — suited to both spring and fall!",
-    "filename": "cabbage.jpg"
+    "filename": "cabbage.jpg",
+    "fall_ind_seed": "2022-06-22",
+    "fall_out_seedling": "2022-07-27",
+    "spring_ind_seedStr": "2022-03-01",
+    "spring_ind_seedEnd": "2022-03-16", 
+    "spring_transStr": "2022-03-30",
+    "spring_transEnd": "2022-04-13"
+
   },
   {
     "name": "Canteloupe",
     "description": "Cantaloupes are a delicious, heat-loving melon with a relatively long growing season, making them especially well-suited for southern gardeners.",
-    "filename": "canteloupe.jpg"
+    "filename": "canteloupe.jpg",
+    "fall_out_seed": "2022-06-22",
+    "spring_ind_seedStr": "2022-03-30",
+    "spring_ind_seedEnd": "2022-04-06",
+    "spring_transStr": "2022-05-11",
+    "spring_transEnd": "2022-05-25"
   },
   {
     "name": "Carrots",
     "description": "Everyone enjoys a sweet, crunchy carrot! Carrots are a cool-season crop grown in spring, and are an excellent source of vitamin A.",
-    "filename": "carrots.jpg"
+    "filename": "carrots.jpg",
+    "fall_out_seed": "2022-08-31",
+    "spring_out_seedStr": "2022-03-23",
+    "spring_out_seedEnd": "2022-04-06"
   },
   {
     "name": "Cauliflower",
     "description": "Cauliflower is a sun-loving, cool-season crop to grow in spring and fall. An annual plant in the Brassica family, cauliflower's edible white flesh is extremely healthy and considered a 'superfood.'",
-    "filename": "cauliflower.jpg"
+    "filename": "cauliflower.jpg",
+    "fall_ind_seed": "2022-07-09",
+    "fall_out_seedling": "2022-08-06",
+    "spring_ind_seedStr": "2022-03-01",
+    "spring_ind_seedEnd": "2022-03-16",
+    "spring_transStr": "2022-03-30",
+    "spring_transEnd": "2022-04-06"
   },
   {
     "name": "Celery",
     "description": "Not only is garden celery better-tasting than store-bough types, but it's also less chemical-laden. in cooler regions, it does best planted in the early spring. In warmer areas, plan to palnt in mid- to late summer.",
-    "filename": "celery.jpg"
+    "filename": "celery.jpg",
+    "fall_ind_seed": "2022-04-28",
+    "fall_out_seedling": "2022-07-07",
+    "spring_ind_seedStr": "2022-02-15",
+    "spring_ind_seedEnd": "2022-03-01",
+    "spring_transStr": "2022-05-04",
+    "spring_transEnd": "2022-04-18"
   },
   {
     "name": "Chives",
     "description": "Chives are a perennial member of the onion family that sport beautiful edible flowers. Plus, they're a wonderful companion plant that helps deter pests.",
-    "filename": "chives.jpg"
+    "filename": "chives.jpg",
+    "spring_out_seedStr": "2022-03-30",
+    "spring_out_seedEnd": "2022-04-06"
   },
   {
     "name": "Cilantro",
     "description": "Cilantro is a fast-growin, aromatic, annual herb that grows best in the cooler weather of spring and fall.", 
-    "filename": "cilantro.jpg"
+    "filename": "cilantro.jpg",
+    "spring_out_seedStr": "2022-04-27",
+    "spring_out_seedEnd": "2022-05-11"
   },
   {
     "name": "Corn",
     "description": "Corn is a tender, warm-season annual crop that produces ears of yellow, white, or bi-colored kernels.",
-    "filename": "corn.jpg"
+    "filename": "corn.jpg",
+    "fall_out_seed": "2022-07-12",
+    "spring_out_seedStr": "2022-05-11",
+    "spring_out_seedEnd": "2022-06-01"
   },
   {
     "name": "Cucumbers",
     "description": "An easy-care vegetable that loves sun and water, cucumbers grow quicly as long as they receive consistent watering and warmth. Don't let cucumbers get too large before you pick, or they will taste bitter!",
-    "filename": "cucumbers.jpg"
+    "filename": "cucumbers.jpg",
+    "fall_out_seed": "2022-07-17",
+    "spring_ind_seedStr": "2022-03-30",
+    "spring_ind_seedEnd": "2022-04-06",
+    "spring_transStr": "2022-05-11",
+    "spring_transEnd": "2022-05-25"
   },
   {
     "name": "Dill", 
     "description": "With its feathery green leaves, fragrant dill is used most commnly in soups and stews or for pickling.",
-    "filename": "dill.jpg"
+    "filename": "dill.jpg",
+    "spring_out_seedStr": "2022-04-27",
+    "spring_ind_seedEnd": "2022-06-01"
   },
   {
     "name": "Eggplants",
     "description": "Eggplants—also known as aubergines or brinjals—are warm-weather vegetables that are harvested in mid- to late summer. Eggplants taste best when harvested young.",
-    "filename": "eggplants.jpg"
+    "filename": "eggplants.jpg",
+    "fall_ind_seed": "2022-05-07",
+    "fall_out_seedling": "2022-07-02",
+    "spring_ind_seedStr": "2022-03-01",
+    "spring_out_seedEnd": "2022-03-16",
+    "spring_transStr": "2022-05-11",
+    "spring_transEnd": "2022-05-25"
   },
   {
     "name": "Green Beans",
     "description": "Green beans are a staple of so many vegetable gardens because they are so easy to grow—even in limited space—and incredibly productive!",
-    "filename": "green-beans.jpg"
+    "filename": "green-beans.jpg",
+    "fall_out_seed": "2022-07-17",
+    "spring_out_seedStr": "2022-05-04",
+    "spring_out_seedEnd": "2022-05-25"
   },
   {
     "name": "Jalapeño Peppers",
     "description": "Chili peppers, including jalapeños, are warm-weather vegetables which are fun to grow (and eat)!",
-    "filename": "jalapenos.jpg"
+    "filename": "jalapenos.jpg",
+    "fall_ind_seed": "2022-05-27",
+    "fall_out_seedling": "2022-07-22",
+    "spring_ind_seedStr": "2022-02-15",
+    "spring_ind_seedEnd": "2022-03-01",
+    "spring_transStr": "2022-05-04",
+    "spring_transEnd": "2022-05-18"
   },
   {
     "name": "Kale",
     "description": "Kale is one of the most nutritious vegetables you can grow. It’s crammed with vitamins and powerful antioxidants, and it tastes delicious. Kale is a hardy cool-season crop which grows best in spring and fall, tolerating frost and even snow.",
-    "filename": "kale.jpg"
+    "filename": "kale.jpg",
+    "fall_ind_seed": "2022-07-29",
+    "fall_out_seedling": "2022-08-26",
+    "spring_ind_seedStr": "2022-03-01",
+    "spring_ind_seedEnd": "2022-03-16",
+    "spring_transStr": "2022-03-30",
+    "spring_transEnd": "2022-04-20"
   },
   {
     "name": "Kohlrabi",
     "description": "Kohlrabi is a cool-season vegetable, often overlooked because of its strange, almost alien appearance. But this edible’s fast growth and great taste make kohlrabi something every gardener should try.",
-    "filename": "kohlrabi.jpg"
+    "filename": "kohlrabi.jpg",
+    "fall_out_seed": "2022-08-31",
+    "spring_ind_seedStr": "2022-03-16",
+    "spring_ind_seedEnd": "2022-03-30",
+    "spring_transStr": "2022-04-06",
+    "spring_transEnd": "2022-04-13"
   },
   {
     "name": "Lettuce",
     "description": "Lettuce is cool-season crop that grows well in the spring and fall in most regions. If you haven’t tasted fresh homegrown lettuce, you’re missing out. It’s far superior in both taste and vitamin A content, to the store-bought alternative.",
-    "filename": "lettuce.jpg"
+    "filename": "lettuce.jpg",
+    "fall_out_seed": "2022-09-10",
+    "spring_ind_seedStr": "2022-03-16",
+    "spring_ind_seedEnd": "2022-03-30",
+    "spring_transStr": "2022-04-13",
+    "spring_transEnd": "2022-05-11"
   },
   {
     "name": "Okra",
     "description": "Okra thrives in warm weather and is traditionally grown in the southern U.S., though there are varieties for northern growers, too. Easy to grow and use, it also has beautiful flowers that look great throughout the growing season!",
-    "filename": "okra.jpg"
+    "filename": "okra.jpg",
+    "fall_out_seed": "2022-07-12",
+    "spring_out_seedStr": "2022-05-11",
+    "spring_out_seedEnd": "2022-05-25"
   },
   {
     "name": "Onions",
     "description": "Onions are planted early in the spring and harvested from midsummer through the fall. Whether you start your onions from seed or from sets, there are some tricks of the trade that make the difference between a great crop and a disappointing one.",
-    "filename": "onions.jpg"
+    "filename": "onions.jpg",
+    "spring_out_seedStr": "2022-03-30",
+    "spring_out_seedEnd": "2022-04-20"
   },
   {
     "name": "Oregano",
     "description": "A must-have herb in a culinary garden, oregano is easy to grow and perfect for beginners. Started in spring, oregano grows well in containers or even as ground cover along a path.",
-    "filename": "oregano.jpg"
+    "filename": "oregano.jpg",
+    "spring_ind_seedStr": "2022-02-15",
+    "spring_ind_seedEnd": "2022-03-16",
+    "spring_transStr": "2022-04-27",
+    "spring_transEnd": "2022-05-18"
   },
   {
     "name": "Parsley",
     "description": "Parsley is a biennial plant with bright green, feather-like leaves that is in the same family as dill. Not only is parsley the perfect garnish, it’s also good for you; it’s rich in iron and vitamins A and C!",
-    "filename": "parsley.jpg"
+    "filename": "parsley.jpg",
+    "spring_out_seedStr": "2022-03-30",
+    "spring_out_seedEnd": "2022-04-13"
   },
   {
     "name": "Parsnips",
     "description": "Parsnips are a hardy, cool-season crop planted in the spring, kissed by fall frost, and harvested before the ground freezes. Parsnips enrich soups and stews but can also be enjoyed as a side dish.",
-    "filename": "parsnips.jpg"
+    "filename": "parsnips.jpg",
+    "fall_out_seed": "2022-07-17",
+    "spring_out_seedStr": "2022-04-06",
+    "spring_out_seedEnd": "2022-04-27"
   },
   {
     "name": "Peas",
     "description": "The sweet taste of glorious garden-grown peas is nothing like what you find in grocery stores. Peas are one of the season’s first crops, planted as soon as the ground can be worked, even if snow falls afterwards.",
-    "filename": "peas.jpg"
+    "filename": "peas.jpg",
+    "fall_out_seed": "2022-08-16",
+    "spring_out_seedStr": "2022-03-16",
+    "spring_out_seedEnd": "2022-04-06"
   },
   {
     "name": "Potatoes", 
     "description": "The taste and texture of homegrown potatoes are far superior to those of store-bought spuds! Garden “taters” also provide a bounty of nutrients.",
-    "filename": "potatoes.jpg"
+    "filename": "potatoes.jpg",
+    "fall_out_seed": "2022-08-06",
+    "spring_out_seedStr": "2022-04-20",
+    "spring_ind_seedEnd": "2022-05-11"
   },
   {
     "name": "Pumpkins",
     "description": "Whether you use them for carving or cooking, pumpkins do not disappoint—if you have the space to grow them. Learn how to plant pumpkins—especially in time for Halloween—as well as grow, harvest, cure, and store this nutritious, delicious American native.",
-    "filename": "pumpkins.jpg"
+    "filename": "pumpkins.jpg",
+    "fall_out_seed": "2022-06-02",
+    "spring_ind_seedStr": "2022-04-06",
+    "spring_ind_seedEnd": "2022-04-20",
+    "spring_transStr": "2022-05-11",
+    "spring_transEnd": "2022-05-25"
   },
   {
     "name": "Radishes",
     "description": "Radishes are hardy root vegetables grown for their crisp, colorful and peppery roots. They can be planted multiple times in a season—and be ready to harvest as soon as three weeks!",
-    "filename": "radishes.jpg"
+    "filename": "radishes.jpg",
+    "fall_out_seed": "2022-09-15",
+    "spring_out_seedStr": "2022-03-01",
+    "spring_out_seedEnd": "2022-03-23"
   },
   {
     "name": "Rosemary", 
     "description": "Rosemary is a perennial evergreen shrub with blue flowers. It’s an aromatic and distinctive herb with a sweet, resinous flavor.", 
-    "filename": "rosemary.jpg"
+    "filename": "rosemary.jpg",
+    "spring_ind_seedStr": "2022-02-15",
+    "spring_ind_seedEnd": "2022-03-01",
+    "spring_transStr": "2022-05-04",
+    "spring_transEnd": "2022-05-25"
   },
   {
     "name": "Sage", 
     "description": "Garden sage is easy to grow—and a wonderful culinary herb that flavors meat and bean dishes (including that Thanksgiving stuffing).",
-    "filename": "sage.jpg"
+    "filename": "sage.jpg",
+    "spring_ind_seedStr": "2022-03-01",
+    "spring_ind_seedEnd": "2022-03-16",
+    "spring_transStr": "2022-04-27",
+    "spring_transEnd": "2022-05-11"
   },
   {
     "name": "Spinach",
     "description": "Spinach, a super–cold-hardy leafy green, is a popular crop that can be planted in very early spring, as well as in fall and even winter in some areas.",
-    "filename": "spinach.jpg"
+    "filename": "spinach.jpg",
+    "fall_out_seed": "2022-09-25",
+    "spring_out_seedStr": "2022-03-16",
+    "spring_out_seedEnd": "2022-04-06"
   },
   {
     "name": "Sweet Potatoes",
     "description": "Just a few sweet potato plants can produce a generous harvest of this nutritious, sweet-tasting root vegetable. More commonly grown in the South because they require warm weather, northern regions can have success with select varieties.",
-    "filename": "sweet-potatoes.jpg"
+    "filename": "sweet-potatoes.jpg",
+    "fall_ind_seed": "2022-05-18",
+    "fall_out_seedling": "2022-06-22",
+    "spring_out_seedStr": "2022-05-18",
+    "spring_out_seedEnd": "2022-06-01"
   },
   {
     "name": "Swiss Chard", 
     "description": "Learn how to grow Swiss chard—or simply “chard”—a member of the beet family. It does well in both cool and warm weather. It is a nutritional superfood, high in vitamins A, C, and K, as well as minerals, phytonutrients, and fiber.",
-    "filename": "swiss-chard.jpg"
+    "filename": "swiss-chard.jpg",
+    "fall_out_seed": "2022-09-10",
+    "spring_ind_seedStr": "2022-03-16",
+    "spring_ind_seedEnd": "2022-03-30",
+    "spring_transStr": "2022-04-06",
+    "spring_transEnd": "2022-04-13"
   },
   {
     "name": "Thyme", 
     "description": "Thyme is a wonderful herb with a pleasant, pungent, clover flavor. It smells like summer to us! There are both fragrant ornamental types as well as culinary thyme varieties which add a savory note to summer soups, grilled meats, and vegetables.",
-    "filename": "thyme.jpg"
+    "filename": "thyme.jpg",
+    "spring_ind_seedStr": "2022-02-15",
+    "spring_ind_seedEnd": "2022-03-16",
+    "spring_transStr": "2022-04-27",
+    "spring_transEnd": "2022-05-18"
   },
   {
     "name": "Tomatoes", 
     "description": "Tomato plants are tender warm-season crops that love the sun and cannot bear frost. It’s important not to put plants in the ground too early. In most regions, the soil is not warm enough to plant tomatoes outdoors until late spring and early summer.",
-    "filename": "tomatoes.jpg"
+    "filename": "tomatoes.jpg",
+    "fall_ind_seed": "2022-05-12",
+    "fall_out_seedling": "2022-07-07",
+    "spring_ind_seedStr": "2022-03-01",
+    "spring_ind_seedEnd": "2022-03-16",
+    "spring_transStr": "2022-05-04",
+    "spring_transEnd": "2022-05-25"
   },
   {
     "name": "Turnips",
     "description": "Turnips are cool-weather vegetables that can be grown both in spring and fall. They mature quickly and both the bright greens and roots can be enjoyed.",
-    "filename": "turnips.jpg"
+    "filename": "turnips.jpg",
+    "fall_out_seed": "2022-09-10",
+    "spring_out_seedStr": "2022-03-30",
+    "spring_out_seedEnd": "2022-04-20"
   },
   {
     "name": "Watermelons",
     "description": "Native to Africa, melons require warm temperatures and a long growing season. By late summer, they should be just about ready to harvest!",
-    "filename": "watermelons.jpg"
+    "filename": "watermelons.jpg",
+    "fall_out_seed": "2022-06-22",
+    "spring_ind_seedStr": "2022-03-30",
+    "spring_ind_seedEnd": "2022-04-06",
+    "spring_transStr": "2022-05-11",
+    "spring_transEnd": "2022-05-25"
   },
   {
     "name": "Winter Squash",
     "description": "Growing winter squash requires some patience, but this garden vegetable is well worth the wait—and most varieties have a long shelf life after harvest. From butternut squash to acorn squash, learn how to plant them in your garden!",
-    "filename": "winter-squash.jpg"
+    "filename": "winter-squash.jpg",
+    "fall_out_seed": "2022-07-07",
+    "spring_out_seedStr": "2022-05-11",
+    "spring_out_seedEnd": "2022-06-08"
   },
   {
     "name": "Zucchini",
     "description": "Zucchini is known to be staggeringly productive. But there are some pitfalls such as poor pollination and pests to avoid if you wish to have a prolific harvest.",
-    "filename": "zucchini.jpg"
+    "filename": "zucchini.jpg",
+    "fall_out_seed": "2022-07-22",
+    "spring_out_seedStr": "2022-05-11",
+    "spring_out_seedEnd": "2022-06-08"
   }
 ]
