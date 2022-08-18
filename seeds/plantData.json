@@ -5,7 +5,8 @@
     "filename": "arugula.jpg",
     "fall_out_seed": "2022-09-15",
     "spring_out_seedStr": "2022-04-13",
-    "spring_out_seedEnd": "2022-04-27"
+    "spring_out_seedEnd": "2022-04-27",
+    "plant_Season": "Cool-season"
   },
   {
     "name": "Basil",
@@ -14,7 +15,8 @@
     "spring_ind_seedStr": "2022-03-01",
     "spring_ind_seedEnd": "2022-03-16",
     "spring_transStr": "2022-04-27",
-    "spring_transEnd": "2022-05-18"
+    "spring_transEnd": "2022-05-18",
+    "plant_Season": "Warm-season"
   },
   {
     "name": "Beets",
@@ -22,7 +24,8 @@
     "filename": "beets.jpg",
     "fall_out_seed": "2022-09-05",
     "spring_out_seedStr": "2022-04-13",
-    "spring_out_seedEnd": "2022-05-04"
+    "spring_out_seedEnd": "2022-05-04",
+    "plant_Season": "Warm-season"
   },
   {
     "name": "Bell Peppers",
@@ -33,7 +36,8 @@
     "spring_ind_seedStr": "2022-03-01",
     "spring_ind_seedEnd": "2022-03-16",
     "spring_transStr": "2022-03-30",
-    "spring_transEnd": "2022-04-20"
+    "spring_transEnd": "2022-04-20",
+    "plant_Season": "Warm-season"
   },
   {
     "name": "Broccoli",
@@ -44,7 +48,8 @@
     "spring_ind_seedStr": "2022-03-01",
     "spring_ind_seedEnd": "2022-03-16",
     "spring_transStr": "2022-03-30",
-    "spring_transEnd": "2022-04-20"
+    "spring_transEnd": "2022-04-20",
+    "plant_Season": "Cool-season"
   },
   {
     "name": "Cabbage",
@@ -55,7 +60,8 @@
     "spring_ind_seedStr": "2022-03-01",
     "spring_ind_seedEnd": "2022-03-16", 
     "spring_transStr": "2022-03-30",
-    "spring_transEnd": "2022-04-13"
+    "spring_transEnd": "2022-04-13",
+    "plant_Season": "Cool-season"
 
   },
   {
@@ -66,7 +72,8 @@
     "spring_ind_seedStr": "2022-03-30",
     "spring_ind_seedEnd": "2022-04-06",
     "spring_transStr": "2022-05-11",
-    "spring_transEnd": "2022-05-25"
+    "spring_transEnd": "2022-05-25",
+    "plant_Season": "Warm-season"
   },
   {
     "name": "Carrots",
@@ -74,7 +81,8 @@
     "filename": "carrots.jpg",
     "fall_out_seed": "2022-08-31",
     "spring_out_seedStr": "2022-03-23",
-    "spring_out_seedEnd": "2022-04-06"
+    "spring_out_seedEnd": "2022-04-06",
+    "plant_Season": "Cool-season"
   },
   {
     "name": "Cauliflower",
@@ -85,32 +93,36 @@
     "spring_ind_seedStr": "2022-03-01",
     "spring_ind_seedEnd": "2022-03-16",
     "spring_transStr": "2022-03-30",
-    "spring_transEnd": "2022-04-06"
+    "spring_transEnd": "2022-04-06",
+    "plant_Season": "Cool-season"
   },
   {
     "name": "Celery",
-    "description": "Not only is garden celery better-tasting than store-bough types, but it's also less chemical-laden. in cooler regions, it does best planted in the early spring. In warmer areas, plan to palnt in mid- to late summer.",
+    "description": "Not only is garden celery better-tasting than store-bough types, but it's also less chemical-laden. In cooler regions, it does best planted in the early spring. In warmer areas, plan to palnt in mid- to late summer.",
     "filename": "celery.jpg",
     "fall_ind_seed": "2022-04-28",
     "fall_out_seedling": "2022-07-07",
     "spring_ind_seedStr": "2022-02-15",
     "spring_ind_seedEnd": "2022-03-01",
     "spring_transStr": "2022-05-04",
-    "spring_transEnd": "2022-04-18"
+    "spring_transEnd": "2022-04-18",
+    "plant_Season": "Cool-season/Warm-Season"
   },
   {
     "name": "Chives",
     "description": "Chives are a perennial member of the onion family that sport beautiful edible flowers. Plus, they're a wonderful companion plant that helps deter pests.",
     "filename": "chives.jpg",
     "spring_out_seedStr": "2022-03-30",
-    "spring_out_seedEnd": "2022-04-06"
+    "spring_out_seedEnd": "2022-04-06",
+    "plant_Season": "Cool-season"
   },
   {
     "name": "Cilantro",
     "description": "Cilantro is a fast-growin, aromatic, annual herb that grows best in the cooler weather of spring and fall.", 
     "filename": "cilantro.jpg",
     "spring_out_seedStr": "2022-04-27",
-    "spring_out_seedEnd": "2022-05-11"
+    "spring_out_seedEnd": "2022-05-11",
+    "plant_Season": "Cool-season"
   },
   {
     "name": "Corn",
@@ -118,7 +130,8 @@
     "filename": "corn.jpg",
     "fall_out_seed": "2022-07-12",
     "spring_out_seedStr": "2022-05-11",
-    "spring_out_seedEnd": "2022-06-01"
+    "spring_out_seedEnd": "2022-06-01",
+    "plant_Season": "Warm-season"
   },
   {
     "name": "Cucumbers",
@@ -128,14 +141,16 @@
     "spring_ind_seedStr": "2022-03-30",
     "spring_ind_seedEnd": "2022-04-06",
     "spring_transStr": "2022-05-11",
-    "spring_transEnd": "2022-05-25"
+    "spring_transEnd": "2022-05-25",
+    "plant_Season": "Warm-season"
   },
   {
     "name": "Dill", 
     "description": "With its feathery green leaves, fragrant dill is used most commnly in soups and stews or for pickling.",
     "filename": "dill.jpg",
     "spring_out_seedStr": "2022-04-27",
-    "spring_ind_seedEnd": "2022-06-01"
+    "spring_ind_seedEnd": "2022-06-01",
+    "plant_Season": "Warm-season"
   },
   {
     "name": "Eggplants",
@@ -146,7 +161,8 @@
     "spring_ind_seedStr": "2022-03-01",
     "spring_out_seedEnd": "2022-03-16",
     "spring_transStr": "2022-05-11",
-    "spring_transEnd": "2022-05-25"
+    "spring_transEnd": "2022-05-25",
+    "plant_Season": "Warm-season"
   },
   {
     "name": "Green Beans",
@@ -154,7 +170,8 @@
     "filename": "green-beans.jpg",
     "fall_out_seed": "2022-07-17",
     "spring_out_seedStr": "2022-05-04",
-    "spring_out_seedEnd": "2022-05-25"
+    "spring_out_seedEnd": "2022-05-25",
+    "plant_Season": "Warm-season"
   },
   {
     "name": "Jalapeño Peppers",
@@ -165,7 +182,8 @@
     "spring_ind_seedStr": "2022-02-15",
     "spring_ind_seedEnd": "2022-03-01",
     "spring_transStr": "2022-05-04",
-    "spring_transEnd": "2022-05-18"
+    "spring_transEnd": "2022-05-18",
+    "plant_Season": "Warm-season"
   },
   {
     "name": "Kale",
@@ -176,7 +194,8 @@
     "spring_ind_seedStr": "2022-03-01",
     "spring_ind_seedEnd": "2022-03-16",
     "spring_transStr": "2022-03-30",
-    "spring_transEnd": "2022-04-20"
+    "spring_transEnd": "2022-04-20",
+    "plant_Season": "Cool-season"
   },
   {
     "name": "Kohlrabi",
@@ -186,7 +205,8 @@
     "spring_ind_seedStr": "2022-03-16",
     "spring_ind_seedEnd": "2022-03-30",
     "spring_transStr": "2022-04-06",
-    "spring_transEnd": "2022-04-13"
+    "spring_transEnd": "2022-04-13",
+    "plant_Season": "Cool-season"
   },
   {
     "name": "Lettuce",
@@ -196,7 +216,8 @@
     "spring_ind_seedStr": "2022-03-16",
     "spring_ind_seedEnd": "2022-03-30",
     "spring_transStr": "2022-04-13",
-    "spring_transEnd": "2022-05-11"
+    "spring_transEnd": "2022-05-11",
+    "plant_Season": "Cool-season"
   },
   {
     "name": "Okra",
@@ -204,14 +225,16 @@
     "filename": "okra.jpg",
     "fall_out_seed": "2022-07-12",
     "spring_out_seedStr": "2022-05-11",
-    "spring_out_seedEnd": "2022-05-25"
+    "spring_out_seedEnd": "2022-05-25",
+    "plant_Season": "Warm-season"
   },
   {
     "name": "Onions",
     "description": "Onions are planted early in the spring and harvested from midsummer through the fall. Whether you start your onions from seed or from sets, there are some tricks of the trade that make the difference between a great crop and a disappointing one.",
     "filename": "onions.jpg",
     "spring_out_seedStr": "2022-03-30",
-    "spring_out_seedEnd": "2022-04-20"
+    "spring_out_seedEnd": "2022-04-20",
+    "plant_Season": "Cool-season"
   },
   {
     "name": "Oregano",
@@ -220,14 +243,16 @@
     "spring_ind_seedStr": "2022-02-15",
     "spring_ind_seedEnd": "2022-03-16",
     "spring_transStr": "2022-04-27",
-    "spring_transEnd": "2022-05-18"
+    "spring_transEnd": "2022-05-18",
+    "plant_Season": "Warm-season"
   },
   {
     "name": "Parsley",
     "description": "Parsley is a biennial plant with bright green, feather-like leaves that is in the same family as dill. Not only is parsley the perfect garnish, it’s also good for you; it’s rich in iron and vitamins A and C!",
     "filename": "parsley.jpg",
     "spring_out_seedStr": "2022-03-30",
-    "spring_out_seedEnd": "2022-04-13"
+    "spring_out_seedEnd": "2022-04-13",
+    "plant_Season": "Cool-season"
   },
   {
     "name": "Parsnips",
@@ -235,7 +260,8 @@
     "filename": "parsnips.jpg",
     "fall_out_seed": "2022-07-17",
     "spring_out_seedStr": "2022-04-06",
-    "spring_out_seedEnd": "2022-04-27"
+    "spring_out_seedEnd": "2022-04-27",
+    "plant_Season": "Cool-season"
   },
   {
     "name": "Peas",
@@ -243,7 +269,8 @@
     "filename": "peas.jpg",
     "fall_out_seed": "2022-08-16",
     "spring_out_seedStr": "2022-03-16",
-    "spring_out_seedEnd": "2022-04-06"
+    "spring_out_seedEnd": "2022-04-06",
+    "plant_Season": "Cool-season"
   },
   {
     "name": "Potatoes", 
@@ -251,7 +278,8 @@
     "filename": "potatoes.jpg",
     "fall_out_seed": "2022-08-06",
     "spring_out_seedStr": "2022-04-20",
-    "spring_ind_seedEnd": "2022-05-11"
+    "spring_ind_seedEnd": "2022-05-11",
+    "plant_Season": "Cool-season"
   },
   {
     "name": "Pumpkins",
@@ -261,7 +289,8 @@
     "spring_ind_seedStr": "2022-04-06",
     "spring_ind_seedEnd": "2022-04-20",
     "spring_transStr": "2022-05-11",
-    "spring_transEnd": "2022-05-25"
+    "spring_transEnd": "2022-05-25",
+    "plant_Season": "Warm-season"
   },
   {
     "name": "Radishes",
@@ -269,7 +298,8 @@
     "filename": "radishes.jpg",
     "fall_out_seed": "2022-09-15",
     "spring_out_seedStr": "2022-03-01",
-    "spring_out_seedEnd": "2022-03-23"
+    "spring_out_seedEnd": "2022-03-23",
+    "plant_Season": "Cool-season"
   },
   {
     "name": "Rosemary", 
@@ -278,7 +308,8 @@
     "spring_ind_seedStr": "2022-02-15",
     "spring_ind_seedEnd": "2022-03-01",
     "spring_transStr": "2022-05-04",
-    "spring_transEnd": "2022-05-25"
+    "spring_transEnd": "2022-05-25",
+    "plant_Season": "Warm-season"
   },
   {
     "name": "Sage", 
@@ -287,7 +318,8 @@
     "spring_ind_seedStr": "2022-03-01",
     "spring_ind_seedEnd": "2022-03-16",
     "spring_transStr": "2022-04-27",
-    "spring_transEnd": "2022-05-11"
+    "spring_transEnd": "2022-05-11",
+    "plant_Season": "Cool-season"
   },
   {
     "name": "Spinach",
@@ -295,7 +327,8 @@
     "filename": "spinach.jpg",
     "fall_out_seed": "2022-09-25",
     "spring_out_seedStr": "2022-03-16",
-    "spring_out_seedEnd": "2022-04-06"
+    "spring_out_seedEnd": "2022-04-06",
+    "plant_Season": "Cool-season"
   },
   {
     "name": "Sweet Potatoes",
@@ -304,7 +337,8 @@
     "fall_ind_seed": "2022-05-18",
     "fall_out_seedling": "2022-06-22",
     "spring_out_seedStr": "2022-05-18",
-    "spring_out_seedEnd": "2022-06-01"
+    "spring_out_seedEnd": "2022-06-01",
+    "plant_Season": "Warm-season"
   },
   {
     "name": "Swiss Chard", 
@@ -314,7 +348,8 @@
     "spring_ind_seedStr": "2022-03-16",
     "spring_ind_seedEnd": "2022-03-30",
     "spring_transStr": "2022-04-06",
-    "spring_transEnd": "2022-04-13"
+    "spring_transEnd": "2022-04-13",
+    "plant_Season": "Cool-season"
   },
   {
     "name": "Thyme", 
@@ -323,7 +358,8 @@
     "spring_ind_seedStr": "2022-02-15",
     "spring_ind_seedEnd": "2022-03-16",
     "spring_transStr": "2022-04-27",
-    "spring_transEnd": "2022-05-18"
+    "spring_transEnd": "2022-05-18",
+    "plant_Season": "Warm-season"
   },
   {
     "name": "Tomatoes", 
@@ -334,7 +370,8 @@
     "spring_ind_seedStr": "2022-03-01",
     "spring_ind_seedEnd": "2022-03-16",
     "spring_transStr": "2022-05-04",
-    "spring_transEnd": "2022-05-25"
+    "spring_transEnd": "2022-05-25",
+    "plant_Season": "Warm-season"
   },
   {
     "name": "Turnips",
@@ -342,7 +379,8 @@
     "filename": "turnips.jpg",
     "fall_out_seed": "2022-09-10",
     "spring_out_seedStr": "2022-03-30",
-    "spring_out_seedEnd": "2022-04-20"
+    "spring_out_seedEnd": "2022-04-20",
+    "plant_Season": "Cool-season"
   },
   {
     "name": "Watermelons",
@@ -352,7 +390,8 @@
     "spring_ind_seedStr": "2022-03-30",
     "spring_ind_seedEnd": "2022-04-06",
     "spring_transStr": "2022-05-11",
-    "spring_transEnd": "2022-05-25"
+    "spring_transEnd": "2022-05-25",
+    "plant_Season": "Warm-season"
   },
   {
     "name": "Winter Squash",
@@ -360,7 +399,8 @@
     "filename": "winter-squash.jpg",
     "fall_out_seed": "2022-07-07",
     "spring_out_seedStr": "2022-05-11",
-    "spring_out_seedEnd": "2022-06-08"
+    "spring_out_seedEnd": "2022-06-08",
+    "plant_Season": "Warm-season"
   },
   {
     "name": "Zucchini",
@@ -368,6 +408,7 @@
     "filename": "zucchini.jpg",
     "fall_out_seed": "2022-07-22",
     "spring_out_seedStr": "2022-05-11",
-    "spring_out_seedEnd": "2022-06-08"
+    "spring_out_seedEnd": "2022-06-08",
+    "plant_Season": "Warm-season"
   }
 ]
