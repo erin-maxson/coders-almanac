@@ -26,25 +26,25 @@ const newFormHandler = async (event) => {
     });
 
     if (response.ok) {
-      document.location.replace('/profile');
+      document.location.replace('/plant');
     } else {
-      alert('Failed to create project');
+      alert('Failed to create plant');
     }
   }
 };
 
 const delButtonHandler = async (event) => {
-  if (event.target.hasAttribute('data-id')) {
-    const id = event.target.getAttribute('data-id');
+  if (event.target.hasAttribute('id')) {
+    const id = event.target.getAttribute('id');
 
-    const response = await fetch(`/api/projects/${id}`, {
+    const response = await fetch(`/api/plants/${id}`, {
       method: 'DELETE',
     });
 
     if (response.ok) {
-      document.location.replace('/profile');
+      document.location.replace('/plants');
     } else {
-      alert('Failed to delete project');
+      alert('Failed to delete plant');
     }
   }
 };
