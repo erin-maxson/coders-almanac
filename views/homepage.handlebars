@@ -1,10 +1,11 @@
 <!-- Loop over each object in the projects array -->
 {{#each plants as |plant| }}
-<div class="row mb-4 project">
-  <div class="col-md-5">
+<div class="row plant">
+  <div class="columns medium-3">
     <h2>
       <a href="/plant/{{plant.id}}">{{plant.name}}</a>
     </h2>
   </div>
 </div>
 {{/each}}
+

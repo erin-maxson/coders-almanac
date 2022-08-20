@@ -1,6 +1,26 @@
+nav {
+  background-color:#353d27;
+  color:#f6ffe9;
+  padding: 30px;
+  align-content: right;
+}
+
+
+nav a {
+  color:#f6ffe9;
+}
+
+nav a:hover {
+  color:#77bf45;
+}
+
+
+nav li {
+  list-style: none;
+}
 
 header, .project:not(:last-child) {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid;
 }
 
 .no-button {
@@ -8,30 +28,20 @@ header, .project:not(:last-child) {
   border: none;
   padding: 0;
   cursor: pointer;
-  color: #1b89bc;
+  color: #77bf45;
   text-decoration: none;
   font-size: 100%;
 }
 
 .no-button:hover {
-  color: #065b83;
+  color: #77bf45;
   text-decoration: underline;
-}
-
-.dollar-amount {
-  color: #056605;
-  font-weight: bold;
-  margin-left: -5px;
 }
 
 /* main nav css */
 .topbar-responsive {
-  background: #2c3840;
+  background: #353d27;
   padding: 1rem 1.5rem;
-}
-
-.topbar-responsive .topbar-responsive-logo {
-  vertical-align: middle;
 }
 
 .topbar-responsive .menu {
@@ -50,7 +60,7 @@ header, .project:not(:last-child) {
 }
 
 .topbar-responsive .menu a:hover {
-  color: #6ea833;
+  color: #77bf45;
 }
 
 @media screen and (max-width: 39.9375em) {
@@ -67,8 +77,8 @@ header, .project:not(:last-child) {
 }
 
 .topbar-responsive .menu .topbar-responsive-button:hover {
-  color: #6ea833;
-  border-color: #6ea833;
+  background-color: #77bf45;
+  border-color: #77bf45;
 }
 
 @media screen and (max-width: 39.9375em) {
@@ -89,7 +99,7 @@ header, .project:not(:last-child) {
   .topbar-responsive .top-bar-title span {
     position: absolute;
     right: 0;
-    border: 1px solid #fefefe;
+    border: 1px solid #f6ffe9;
     border-radius: 5px;
     padding: 0.25rem 0.45rem;
     top: 50%;
@@ -160,6 +170,12 @@ header, .project:not(:last-child) {
 
 
 /* Signup form on login.handlebars */
+form {
+  background-color: #353d27;
+  color:#f6ffe9;
+  font: Work-Sans;
+}
+
 form .form-icons {
   text-align: center;
 }
@@ -169,17 +185,21 @@ form .form-icons h4 {
 }
 
 form .form-icons .input-group-label {
-  background-color: #1779ba;
-  border-color: #1779ba;
+  background-color: #353d27;
+  border-color: #353d27;
 }
 
 form .form-icons .input-group-field {
-  border-color: #1779ba;
+  border-color: #353d27;
 }
 
 form .form-icons .fa {
   color: white;
   width: 1rem;
+}
+
+.button expanded {
+  align-items: center;
 }
 
 
