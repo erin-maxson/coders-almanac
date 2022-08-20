@@ -2,7 +2,7 @@ const router = require('express').Router();
 const { Plant } = require('../../models');
 const withAuth = require('../../utils/auth');
 
-router.get('/', async, (req,res)=>{
+router.get('/', async (req,res)=>{
   try {
     const plantData = await Plant.findAll({
       include: [
@@ -18,7 +18,7 @@ router.get('/', async, (req,res)=>{
   }
 });
 
-router.get('/:id', async, (req,res) => {
+router.get('/:id', async (req,res) => {
   try {
     const plantData = await Plant.findByPk(req.params.id, {
       include: [
