@@ -6,7 +6,6 @@ nav {
   font-family: 'Work Sans', sans-serif;
 }
 
-
 nav a {
   color:#f6ffe9;
 }
@@ -14,7 +13,6 @@ nav a {
 nav a:hover {
   color:#77bf45;
 }
-
 
 nav li {
   list-style: none;
