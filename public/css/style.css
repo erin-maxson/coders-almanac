@@ -232,21 +232,12 @@ form .form-icons .fa {
   size: 200px;
 }
 
-.card-flex-article .card-tag {
-  position: absolute;
-  bottom: 1rem;
-  left: 1rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  border-radius: 3%;
-}
-
 .card-flex-article .card-section .article-title {
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
   font-size: 1.75rem;
   margin-bottom: 0;
-  padding: 10px;
+  padding-left: 10px;
   color: #77bf45;
 }
 
@@ -258,7 +249,7 @@ form .form-icons .fa {
 
 .card-flex-article .card-section .article-summary {
   font-family: 'Work Sans', sans-serif;
-  padding: 10px;
+  padding-left: 10px;
 }
 
 .card-flex-article .user-info {
@@ -291,9 +282,8 @@ form .form-icons .fa {
 }
 
 /* add a plant form button on main (once logged in) */
-
 .marketing-site-hero {
-  background: url("https://images.unsplash.com/photo-1611843467160-25afb8df1074?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"), black;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1611843467160-25afb8df1074?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
   height: 45vh;
   background-size: cover;
   display: -webkit-flex;
