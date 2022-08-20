@@ -55,7 +55,7 @@ header, .project:not(:last-child) {
 .topbar-responsive .menu a {
   color: #f6ffe9;
   transition: color 0.15s ease-in;
-  font-family: Work Sans;
+  font-family: 'Work Sans', sans-serif;
   font-weight: 200;
 }
 
@@ -253,7 +253,7 @@ form .form-icons .fa {
 }
 
 .card-flex-article .card-section .article-title {
-  font-family: 'Merriweather', serif;
+  font-family: 'Work Sans', sans-serif;
   font-weight: bold;
   font-size: 1.75rem;
   margin-bottom: 0;
@@ -266,7 +266,7 @@ form .form-icons .fa {
 }
 
 .card-flex-article .card-section .article-summary {
-  font-family: 'Merriweather', serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .card-flex-article .user-info {
@@ -297,3 +297,52 @@ form .form-icons .fa {
   padding: 10px 0;
 }
 
+/* add a plant form button on main (once logged in) */
+
+.marketing-site-hero {
+  background: url("https://images.unsplash.com/photo-1611843467160-25afb8df1074?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"), rgba(0, 0, 0, 0.5);
+  height: 45vh;
+  background-size: cover;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color:#f6ffe9;
+  font-family: 'Work Sans', sans-serif;
+}
+
+@media screen and (min-width: 40em) {
+  .marketing-site-hero {
+    background-position: center center;
+  }
+}
+
+.marketing-site-hero-content {
+  max-width: 75rem;
+  margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.marketing-site-hero-content h1 {
+  font-size: 20px;
+
+}
+
+.marketing-site-hero-content .button.round {
+  background-color: #77bf45;
+  color:#f6ffe9;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  border-color: #77bf45;
+  align-items: right;
+}
+
+@media screen and (min-width: 40em) {
+  .marketing-site-hero-content {
+    padding-left: 50%;
+  }
+}
