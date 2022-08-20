@@ -1,7 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>The Coder's Almanac - All Plants</title>
+  <link rel="stylesheet" href="/css/jass.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;400&display=swap" rel="stylesheet">
+</head>
+
 <div class="card-flex-article card">
   <div class="card-image">
-    <img src="/assets/images/plants/tomatoes.jpg">
-    <span class="label alert card-tag">#Logo</span>
+    <img src="images/plants/{{plant.filename}}">
   </div>
   <div class="card-section">
     <h3 class="article-title">{{plant.name}}</h3>
@@ -9,10 +21,6 @@
     <p class="article-summary">{{plant.description}}</p>
   </div>
    <div class="card-divider align-middle">
-     <div class="avatar with-add-icon">
-       <img src="https://placehold.it/35" alt="avatar" />
-       <i class="fa fa-plus-circle" aria-hidden="true"></i>
-     </div>
     <div class="user-info">
       <p class="user-name">Added by {{user.name}}</p>
     </div>

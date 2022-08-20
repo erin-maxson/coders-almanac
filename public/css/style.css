@@ -3,6 +3,7 @@ nav {
   color:#f6ffe9;
   padding: 30px;
   align-content: right;
+  font-family: 'Work Sans', sans-serif;
 }
 
 
@@ -55,7 +56,7 @@ header, .project:not(:last-child) {
 .topbar-responsive .menu a {
   color: #f6ffe9;
   transition: color 0.15s ease-in;
-  font-family: Work Sans;
+  font-family: 'Work Sans', sans-serif;
   font-weight: 200;
 }
 
@@ -165,6 +166,10 @@ header, .project:not(:last-child) {
 }
 
 
+body {
+  background-color: #f6ffe9;
+}
+
 /* Login form on login.handlebars */
 
 
@@ -203,37 +208,22 @@ form .form-icons .fa {
 }
 
 
-/* plant cards (homepage) */
+/* plant cards on homepage */
+.card {
+  background-color: #ffffff;
+}
 
 .card-flex-article .card-divider {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  background: transparent;
+  padding: 25px;
 }
 
 .card-flex-article .card-divider p {
   margin-bottom: 0;
 }
 
-.card-flex-article .card-divider .avatar {
-  margin-right: 0.75rem;
-}
-
-.card-flex-article .avatar {
-  position: relative;
-}
-
-.card-flex-article .avatar img {
-  border-radius: 50%;
-}
-
-.card-flex-article .avatar.with-add-icon .fa {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  color: #cc4b37;
-}
 
 .card-flex-article .card-actions .fa:not(:last-of-type) {
   margin-right: 1rem;
@@ -241,6 +231,7 @@ form .form-icons .fa {
 
 .card-flex-article .card-image {
   position: relative;
+  size: 200px;
 }
 
 .card-flex-article .card-tag {
@@ -253,10 +244,12 @@ form .form-icons .fa {
 }
 
 .card-flex-article .card-section .article-title {
-  font-family: 'Merriweather', serif;
-  font-weight: bold;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
   font-size: 1.75rem;
   margin-bottom: 0;
+  padding: 10px;
+  color: #77bf45;
 }
 
 .card-flex-article .card-section .article-details {
@@ -266,7 +259,8 @@ form .form-icons .fa {
 }
 
 .card-flex-article .card-section .article-summary {
-  font-family: 'Merriweather', serif;
+  font-family: 'Work Sans', sans-serif;
+  padding: 10px;
 }
 
 .card-flex-article .user-info {
@@ -274,8 +268,9 @@ form .form-icons .fa {
 }
 
 .card-flex-article .user-info .user-name {
-  font-weight: bold;
+  font-weight: 200;
   margin-bottom: 0;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .card-flex-article .notability {
@@ -297,3 +292,52 @@ form .form-icons .fa {
   padding: 10px 0;
 }
 
+/* add a plant form button on main (once logged in) */
+
+.marketing-site-hero {
+  background: url("https://images.unsplash.com/photo-1611843467160-25afb8df1074?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"), black;
+  height: 45vh;
+  background-size: cover;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color:#f6ffe9;
+  font-family: 'Work Sans', sans-serif;
+}
+
+@media screen and (min-width: 40em) {
+  .marketing-site-hero {
+    background-position: center center;
+  }
+}
+
+.marketing-site-hero-content {
+  max-width: 75rem;
+  margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.marketing-site-hero-content h1 {
+  font-size: 20px;
+
+}
+
+a.addBtn {
+  background-color: #77bf45;
+  color:#f6ffe9;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  border-color: #77bf45;
+  align-items: center;
+}
+
+@media screen and (min-width: 40em) {
+  .marketing-site-hero-content {
+    padding-left: 50%;
+  }
+}
