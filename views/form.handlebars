@@ -9,46 +9,87 @@
         <input type="text" name="plant-name" placeholder="Any">
       </label>
     </div>
-     <div class="row columns">
-      <label>Plant Seedlings or Transplants ()
-        <input type="text" name="seedlings-date" placeholder="Any">
+    <div class="row columns">
+      <label>Planting Season
+      <input type="radio" id="html" name="plant-season" value="cool-season">
+        <label for="cool-season">Cool-season</label><br>
+      <input type="radio" id="css" name="plant-season" value="warm-season">
+        <label for="warm-season">warm-season</label><br>
       </label>
     </div>
     <div class="row columns">
-      <label>Fall Seeding Date - Start Seeds Outdoors (MM/DD-MM/DD)
-        <input type="text" name="fall-date" placeholder="Any">
+      <label for="fall-ind-seed">Fall Indoor Seeding Date(YYYY/MM/DD)
+        <input type="date" name="fall-ind-seed" placeholder="Any">
       </label>
     </div>
     <div class="row columns">
-      <label>Spring Seeding Date - Start Seeds Outdoors (MM/DD-MM/DD)
-         <input type="text" name="spring-date" placeholder="Any">
+      <label for="fall-out-seed">Fall Outdoor Seeding Date(YYYY/MM/DD)
+        <input type="date" name="fall-out-seed" placeholder="Any">
       </label>
     </div>
-    <button type="button" class="primary button expanded search-button">
-      Submit
-    </button>
- </form>
+    <div class="row columns">
+      <label for="fall-out-seedling">Fall Outdoor Seedling Date(YYYY/MM/DD)
+        <input type="date" name="fall-out-seedling" placeholder="Any">
+      </label>
+    </div>
+    <div class="row columns">
+      <label for="spring-ind-seeding-start">Spring Indoor Seeding Start Date(YYYY/MM/DD)
+        <input type="date" name="spring-ind-seeding-start" placeholder="Any">
+      </label>
+    </div>
+    <div class="row columns">
+      <label for="spring-ind-seeding-end">Spring Indoor Seeding End Date(YYYY/MM/DD)
+        <input type="date" name="spring-ind-seeding-end" placeholder="Any">
+      </label>
+    </div>
+    <div class="row columns">
+      <label for="spring-out-seeding-start">Spring Outdoor Seeding Start Date(YYYY/MM/DD)
+        <input type="date" name="spring-out-seeding-start" placeholder="Any">
+      </label>
+    </div>
+    <div class="row columns">
+      <label for="spring-out-seeding-end">Spring Outdoor Seeding End Date(YYYY/MM/DD)
+        <input type="date" name="spring-out-seeding-end" placeholder="Any">
+      </label>
+    </div>
+    <div class="row columns">
+      <label for="spring-trans-start">Spring Transplant Start Date(YYYY/MM/DD)
+        <input type="date" name="spring-trans-start" placeholder="Any">
+      </label>
+    </div>
+    <div class="row columns">
+      <label for="spring-trans-end">Spring Transplant End Date(YYYY/MM/DD)
+        <input type="date" name="spring-trans-end" placeholder="Any">
+      </label>
+    </div>
+    <div class="row columns">
+      <label for="plant-description">Plant Description
+        <input type="text" name="plant-description" placeholder="Any">
+      </label>
+    </div>
+    <input class="new-plant-form" type="submit" value="Submit">
+  </form>
 </div>
 
 
 {{!-- have not touched this yet, EM --}}
 
-  {{#if projects.length}}
-  <div class="col-md-6 project-list">
-    <h3>Current Projects:</h3>
+{{#if plants.length}}
+<div class="col-md-6 plant-list">
+  <h3>Current Plants:</h3>
 
-    {{#each projects as |project|}}
-    <div class="row mb-2">
-      <div class="col-md-8">
-        <h4><a href="/project/{{project.id}}">{{project.name}}</a></h4>
-      </div>
-      <div class="col-md-4">
-        <button class="btn btn-sm btn-danger" data-id="{{project.id}}">DELETE</button>
-      </div>
+  {{#each plants as |plant|}}
+  <div class="row mb-2">
+    <div class="col-md-8">
+      <h4><a href="/plant/{{plant.id}}">{{plant.name}}</a></h4>
     </div>
-    {{/each}}
+    <div class="col-md-4">
+      <button class="btn btn-sm btn-danger" data-id="{{plant.id}}">DELETE</button>
+    </div>
   </div>
-  {{/if}}
+  {{/each}}
+</div>
+{{/if}}
 </div>
 
-<script src="./js/profile.js"></script>
+<script src="./js/plant.js"></script>
