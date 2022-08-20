@@ -1,9 +1,8 @@
 <!-- Loop over each object in the plants array -->
-{{#each plants as |plant| }}
+{{#each plants as |plant|}}
 <div class="card-flex-article card">
   <div class="card-image">
-    <img src="/assets/images/plants/tomatoes.jpg">
-    <span class="label alert card-tag">#Logo</span>
+    <img src={{plant.filename}}>
   </div>
   <div class="card-section">
     <h3 class="article-title">{{plant.name}}</h3>
@@ -11,10 +10,6 @@
     <p class="article-summary">{{plant.description}}</p>
   </div>
    <div class="card-divider align-middle">
-     <div class="avatar with-add-icon">
-       <img src="https://placehold.it/35" alt="avatar" />
-       <i class="fa fa-plus-circle" aria-hidden="true"></i>
-     </div>
     <div class="user-info">
       <p class="user-name">Added by {{user.name}}</p>
     </div>

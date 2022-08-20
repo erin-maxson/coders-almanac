@@ -210,30 +210,13 @@ form .form-icons .fa {
   display: -ms-flexbox;
   display: flex;
   background: transparent;
+  padding: 25px;
 }
 
 .card-flex-article .card-divider p {
   margin-bottom: 0;
 }
 
-.card-flex-article .card-divider .avatar {
-  margin-right: 0.75rem;
-}
-
-.card-flex-article .avatar {
-  position: relative;
-}
-
-.card-flex-article .avatar img {
-  border-radius: 50%;
-}
-
-.card-flex-article .avatar.with-add-icon .fa {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  color: #cc4b37;
-}
 
 .card-flex-article .card-actions .fa:not(:last-of-type) {
   margin-right: 1rem;
@@ -274,8 +257,9 @@ form .form-icons .fa {
 }
 
 .card-flex-article .user-info .user-name {
-  font-weight: bold;
+  font-weight: 200;
   margin-bottom: 0;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .card-flex-article .notability {
