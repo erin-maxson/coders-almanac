@@ -13,14 +13,14 @@
 
 <body>
       <nav class="row">
-        <img href="/assets/images/coders almanac.png"></img>
+        <img src="1.png" alt="">
         <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
   <div id="topbar-responsive" class="topbar-responsive-links">
     <div class="top-bar-right">
       <ul class="menu simple vertical medium-horizontal">
-        <li><a href="#">Home</a></li>
-        <li><a href="/plants">See Plants</a></li>
+        <li><a href="/" class="home">Home</a></li>
+        <li><a href="/plants" class="plants">See Plants</a></li>
           <button type="no-button" class="button hollow topbar-responsive-button" id="logout">Logout</button>
         </li>
       </ul>
@@ -31,9 +31,9 @@
   <div id="topbar-responsive" class="topbar-responsive-links">
     <div class="top-bar-right">
       <ul class="menu simple vertical medium-horizontal">
-        <li><a href="#">Home</a></li>
+        <li><a href="/" class="home">Home</a></li>
         {{!-- need to update this link over time --}}
-        <li><a href="/login">Login</a></li>
+        <li><a href="/login" class="login">Login</a></li>
       </ul>
     </div>
   </div>
