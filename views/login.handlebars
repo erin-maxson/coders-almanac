@@ -3,46 +3,47 @@
 
 
 <div class="row w-100">
-<div class"columns medium-6">
-<form class="callout text-center">
-  <h2>Join The Coder's Almanac</h2>
-  <div class="floated-label-wrapper">
-    <label for="full-name">Full name</label>
-    <input type="text" id="full-name" name="full name input" placeholder="Full name">
+  <div class"columns medium-6">
+    <form class="callout text-center signup-form">
+      <h2>Join The Coder's Almanac</h2>
+      <div class="floated-label-wrapper">
+        <label for="full-name">Full name</label>
+        <input type="text" id="full-name" name="full name input" placeholder="Full name">
+      </div>
+      <div class="floated-label-wrapper">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email input" placeholder="Email">
+      </div>
+      <div class="floated-label-wrapper">
+        <label for="pass">Password</label>
+        <input type="password" id="pass" name="password input" placeholder="Password">
+      </div>
+      <input class="button expanded" type="submit" value="Sign up">
+    </form>
   </div>
-  <div class="floated-label-wrapper">
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email input" placeholder="Email">
-  </div>
-  <div class="floated-label-wrapper">
-    <label for="pass">Password</label>
-    <input type="password" id="pass" name="password input" placeholder="Password">
-  </div>
-  <input class="button expanded signup-form" type="submit" value="Sign up">
-</form>
-</div>
 
-<div class="columns medium-6">
-  <form>
-  <div class="form-icons">
-  <h2>Or Login</h2>
-    <div class="input-group">
-      <span class="input-group-label">
-        <i class="fa fa-envelope"></i>
-      </span>
-      <input id="email-login" class="input-group-field" type="text" placeholder="Email">
-    </div>
+  <div class="columns medium-6">
+    <form class="login-form">
+      <div class="form-icons">
+        <h2>Or Login</h2>
+        <div class="input-group">
+          <span class="input-group-label">
+            <i class="fa fa-envelope"></i>
+          </span>
+          <input id="email-login" class="input-group-field" type="text" placeholder="Email">
+        </div>
 
-    <div class="input-group">
-      <span class="input-group-label">
-        <i class="fa fa-key"></i>
-      </span>
-      <input id="password-login" class="input-group-field" type="text" placeholder="Password">
-    </div>
+        <div class="input-group">
+          <span class="input-group-label">
+            <i class="fa fa-key"></i>
+          </span>
+          <input id="password-login" class="input-group-field" type="password" placeholder="Password">
+        </div>
+      </div>
+      {{!-- <button class="button expanded login-form">Login</button> --}}
+      <input class="button expanded" type="submit" value="Login">
+    </form>
   </div>
-  <button class="button expanded login-form">Login</button>
-</form>
-</div>
 </div>
 
 <script src="./js/login.js"></script>
