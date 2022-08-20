@@ -1,14 +1,29 @@
-<div class="text-center">
-  <h2>{{name}}</h2>
-  <p>{{{get_emoji}}}</p>
-  <p>{{description}}</p>
-  <p>Created by {{user.name}} on {{format_date date_created}}</p>
-  <p>
-    <span for="img" aria-label="money">💲</span>
-    <span class="dollar-amount">{{format_amount needed_funding}}</span>
-    needed
-  </p>
-  <p>
-    <button class="btn btn-primary">Fund this Project!</button>
-  </p>
+<div class="card-flex-article card">
+  <div class="card-image">
+    <img src="/assets/images/plants/tomatoes.jpg">
+    <span class="label alert card-tag">#Logo</span>
+  </div>
+  <div class="card-section">
+    <h3 class="article-title">{{plant.name}}</h3>
+    <p class="season">{{plant.plantSeason}}</p>
+    <p class="article-summary">{{plant.description}}</p>
+  </div>
+   <div class="card-divider align-middle">
+     <div class="avatar with-add-icon">
+       <img src="https://placehold.it/35" alt="avatar" />
+       <i class="fa fa-plus-circle" aria-hidden="true"></i>
+     </div>
+    <div class="user-info">
+      <p class="user-name">Added by {{user.name}}</p>
+    </div>
+  </div>
+
+{{!-- possible favoriting of the plant card by users in case we want to do this, EM --}}
+    {{!-- <div class="card-actions">
+      <i class="fa fa-heart-o" aria-hidden="true"></i>
+      <i class="fa fa-plus" aria-hidden="true"></i>
+      <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+    </div> --}}
+  </div>
 </div>
+

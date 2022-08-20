@@ -1,0 +1,54 @@
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+
+<div class="translucent-form-overlay">
+  <form>
+    <h3>Add a New Plant with Seeding Dates</h3>
+    <div class="row columns">
+      <label>Plant Name
+        <input type="text" name="plant-name" placeholder="Any">
+      </label>
+    </div>
+     <div class="row columns">
+      <label>Plant Seedlings or Transplants ()
+        <input type="text" name="seedlings-date" placeholder="Any">
+      </label>
+    </div>
+    <div class="row columns">
+      <label>Fall Seeding Date - Start Seeds Outdoors (MM/DD-MM/DD)
+        <input type="text" name="fall-date" placeholder="Any">
+      </label>
+    </div>
+    <div class="row columns">
+      <label>Spring Seeding Date - Start Seeds Outdoors (MM/DD-MM/DD)
+         <input type="text" name="spring-date" placeholder="Any">
+      </label>
+    </div>
+    <button type="button" class="primary button expanded search-button">
+      Submit
+    </button>
+ </form>
+</div>
+
+
+{{!-- have not touched this yet, EM --}}
+
+  {{#if projects.length}}
+  <div class="col-md-6 project-list">
+    <h3>Current Projects:</h3>
+
+    {{#each projects as |project|}}
+    <div class="row mb-2">
+      <div class="col-md-8">
+        <h4><a href="/project/{{project.id}}">{{project.name}}</a></h4>
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn-sm btn-danger" data-id="{{project.id}}">DELETE</button>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+  {{/if}}
+</div>
+
+<script src="./js/profile.js"></script>
