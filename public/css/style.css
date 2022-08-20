@@ -1,3 +1,7 @@
+.top-bar-title {
+  color:#353d27;
+  padding: 20px;
+}
 
 header, .project:not(:last-child) {
   border-bottom: 1px solid #ccc;
@@ -26,7 +30,7 @@ header, .project:not(:last-child) {
 
 /* main nav css */
 .topbar-responsive {
-  background: #2c3840;
+  background: #353d27;
   padding: 1rem 1.5rem;
 }
 
@@ -163,6 +167,7 @@ header, .project:not(:last-child) {
 form {
   background-color: #353d27;
   color:#f6ffe9;
+  font: Work-Sans;
 }
 
 form .form-icons {
@@ -185,6 +190,10 @@ form .form-icons .input-group-field {
 form .form-icons .fa {
   color: white;
   width: 1rem;
+}
+
+.button expanded {
+  align-items: center;
 }
 
 
