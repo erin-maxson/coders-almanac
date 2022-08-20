@@ -67,33 +67,29 @@
         <input type="text" name="plant-description" placeholder="Any">
       </label>
     </div>
-    <button type="button" class="primary button expanded search-button">
-      Submit
-    </button>
+    <input class="new-plant-form" type="submit" value="Submit">
   </form>
 </div>
 
 
 {{!-- have not touched this yet, EM --}}
 
-{{! commented out; don't need to display plants when submitting a new one -jr}}
+{{#if plants.length}}
+<div class="col-md-6 plant-list">
+  <h3>Current Plants:</h3>
 
-{{!-- {{#if plants.length}}
-<div class="col-md-6 project-list">
-  <h3>Current Projects:</h3>
-
-  {{#each projects as |project|}}
+  {{#each plants as |plant|}}
   <div class="row mb-2">
     <div class="col-md-8">
-      <h4><a href="/project/{{project.id}}">{{project.name}}</a></h4>
+      <h4><a href="/plant/{{plant.id}}">{{plant.name}}</a></h4>
     </div>
     <div class="col-md-4">
-      <button class="btn btn-sm btn-danger" data-id="{{project.id}}">DELETE</button>
+      <button class="btn btn-sm btn-danger" data-id="{{plant.id}}">DELETE</button>
     </div>
   </div>
   {{/each}}
 </div>
 {{/if}}
-</div> --}}
+</div>
 
 <script src="./js/plant.js"></script>
