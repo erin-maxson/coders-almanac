@@ -160,6 +160,11 @@ header, .project:not(:last-child) {
 
 
 /* Signup form on login.handlebars */
+form {
+  background-color: #353d27;
+  color:#f6ffe9;
+}
+
 form .form-icons {
   text-align: center;
 }
@@ -169,12 +174,12 @@ form .form-icons h4 {
 }
 
 form .form-icons .input-group-label {
-  background-color: #1779ba;
-  border-color: #1779ba;
+  background-color: #353d27;
+  border-color: #353d27;
 }
 
 form .form-icons .input-group-field {
-  border-color: #1779ba;
+  border-color: #353d27;
 }
 
 form .form-icons .fa {
