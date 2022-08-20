@@ -1,18 +1,22 @@
 <!-- Loop over each object in the plants array -->
+<div class="row">
 {{#each plants as |plant|}}
-<div class="card-flex-article card">
-  <div class="card-image">
-    <img src={{plant.filename}}>
-  </div>
-  <div class="card-section">
-    <h3 class="article-title">{{plant.name}}</h3>
-    <p class="season">{{plant.plantSeason}}</p>
-    <p class="article-summary">{{plant.description}}</p>
-  </div>
-   <div class="card-divider align-middle">
-    <div class="user-info">
-      <p class="user-name">Added by {{user.name}}</p>
+<div class="column small-4">
+  <div class="card-flex-article card">
+    <div class="card-image">
+      <img src="images/plants/{{plant.filename}}">
+    </div>
+    <div class="card-section">
+      <h3 class="article-title">{{plant.name}}</h3>
+      <p class="season">{{plant.plantSeason}}</p>
+      <p class="article-summary">{{plant.description}}</p>
+    </div>
+    <div class="card-divider align-middle">
+      <div class="user-info">
+        <p class="user-name">Added by {{user.name}}</p>
+      </div>
     </div>
   </div>
+  </div>
 {{/each}}
-
+</div>
