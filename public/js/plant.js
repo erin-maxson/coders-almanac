@@ -16,7 +16,7 @@ const newFormHandler = async (event) => {
   const springTransStr = document.querySelector('#spring-trans-start').value;
   const springTransEnd = document.querySelector('#spring-trans-end')
 
-  if (name && needed_funding && description) {
+  if (name && plantingSeason && description) {
     const response = await fetch(`/api/plants`, {
       method: 'POST',
       body: JSON.stringify({ name, description, plantingSeason, fallIndSeed, fallOutSeed, fallOutSeedling, springIndSeedStr, springIndSeedEnd, springOutSeedStr, springOutSeedEnd, springTransStr, springTransEnd }),
