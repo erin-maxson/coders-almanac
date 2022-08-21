@@ -168,54 +168,88 @@ body {
   background-color: #f6ffe9;
 }
 
+
+/* main card formatting */
+.container {
+  flex-direction: row-reverse;
+}
+
 /* Login form on login.handlebars */
-
-
-
-/* Signup form on login.handlebars */
-form {
+.sign-in-form {
+  padding: 1rem 1.5em;
+  border-radius: .5rem;
   background-color: #353d27;
-  color:#f6ffe9;
-  font: Work-Sans;
+  font-family: 'Work Sans', sans-serif;
+  width: 25%;
 }
 
-form .form-icons {
-  text-align: center;
+.sign-in-form h4 {
+  color: #f6ffe9;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
-form .form-icons h4 {
+.sign-in-form label {
+  text-transform: uppercase;
+  color: #f6ffe9;
+  letter-spacing: 1px;
+  font-weight: 600;
   margin-bottom: 1rem;
 }
 
-form .form-icons .input-group-label {
-  background-color: #353d27;
-  border-color: #353d27;
+.sign-in-form input {
+  color: #353d27;
 }
 
-form .form-icons .input-group-field {
-  border-color: #353d27;
+.sign-in-form input:focus {
+  opacity: .8;
 }
 
-form .form-icons .fa {
-  color: white;
-  width: 1rem;
+.sign-in-form-name,
+.sign-in-form-username,
+.sign-in-form-password {
+  border-radius: 30px;
+  border: none;
+  opacity: .1;
+  transition: all ease .4s;
+  margin: 10px;
 }
 
-.button expanded {
-  align-items: center;
+.sign-in-form-button {
+  border-radius: 30px;
+  border: 1px solid #f6ffe9;
+  color: #f6ffe9;
+  background-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 75%;
+  padding: 1rem;
+  transition: all ease .4s;
 }
 
+.sign-in-form-button:hover {
+  background-color:#77bf45;
+  border-color: #77bf45;
+}
 
 /* plant cards on homepage */
 .card {
   background-color: #ffffff;
+  width: 20%;
+  height: 100%;
+  margin: 10px;
+}
+
+.card img {
+  width: 100%;
 }
 
 .card-flex-article .card-divider {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 25px;
+padding: 25px;
 }
 
 .card-flex-article .card-divider p {
@@ -229,7 +263,6 @@ form .form-icons .fa {
 
 .card-flex-article .card-image {
   position: relative;
-  size: 200px;
 }
 
 .card-flex-article .card-section .article-title {
@@ -239,6 +272,7 @@ form .form-icons .fa {
   margin-bottom: 0;
   padding-left: 10px;
   color: #77bf45;
+  text-align: center;
 }
 
 .card-flex-article .card-section .article-details {
@@ -249,7 +283,13 @@ form .form-icons .fa {
 
 .card-flex-article .card-section .article-summary {
   font-family: 'Work Sans', sans-serif;
-  padding-left: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.card-divider.align-middle {
+  background-color: #77bf45;
+  color:#f6ffe9;
 }
 
 .card-flex-article .user-info {
@@ -258,7 +298,6 @@ form .form-icons .fa {
 
 .card-flex-article .user-info .user-name {
   font-weight: 200;
-  margin-bottom: 0;
   font-family: 'Work Sans', sans-serif;
 }
 
@@ -268,7 +307,6 @@ form .form-icons .fa {
 }
 
 /* plant details page */
-
 .work-feature-block {
   padding: 10px 0;
   border-top: 1px solid #cacaca;
@@ -285,6 +323,7 @@ form .form-icons .fa {
 .marketing-site-hero {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1611843467160-25afb8df1074?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
   height: 45vh;
+  width: 100%;
   background-size: cover;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -328,4 +367,29 @@ a.addBtn {
   .marketing-site-hero-content {
     padding-left: 50%;
   }
+}
+
+/* footer */
+
+.social-footer {
+  padding: 30px;
+  background: #353d27;
+  color:#f6ffe9;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social-footer a {
+  color:#f6ffe9;
+}
+
+.social-footer a:hover {
+  color:#77bf45;
 }

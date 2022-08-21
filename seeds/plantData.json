@@ -10,7 +10,7 @@
   },
   {
     "name": "Basil",
-    "description": "Basil is a warm-weather, fragrant herb that tastes great in many dishes—including the beloved homemade pesto! Plant seeds or transplants after all danger of frost has passed and soil is warm, and it will yield an abundant harvest within weeks. Keep harvesting the leaves to keep the plant going strong.",
+    "description": "Basil is a warm-weather, fragrant herb that tastes great in many dishes—including the beloved homemade pesto!",
     "filename": "basil.jpg",
     "spring_ind_seedStr": "2022-03-01",
     "spring_ind_seedEnd": "2022-03-16",
@@ -283,7 +283,7 @@
   },
   {
     "name": "Pumpkins",
-    "description": "Whether you use them for carving or cooking, pumpkins do not disappoint—if you have the space to grow them. Learn how to plant pumpkins—especially in time for Halloween—as well as grow, harvest, cure, and store this nutritious, delicious American native.",
+    "description": "Whether you use them for carving or cooking, pumpkins do not disappoint—if you have the space to grow them.",
     "filename": "pumpkins.jpg",
     "fall_out_seed": "2022-06-02",
     "spring_ind_seedStr": "2022-04-06",
