@@ -13,7 +13,9 @@
 
 <body>
       <nav class="row">
+        <a href="/">
         <img src="/images/logo.png" alt="">
+        </a>
         <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
   <div id="topbar-responsive" class="topbar-responsive-links">
@@ -26,7 +28,7 @@
       </ul>
     </div>
   </div>
-  <div class="marketing-site-hero">
+  <div class="marketing-site-hero image">
   <div class="marketing-site-hero-content">
     <h1>Welcome to The Coder's Almanac!</h1>
     <p class="subheader">Prep for garden season by finding and adding new plants to our digital seed library!</p>
@@ -57,12 +59,23 @@
         {{/if}}
       </nav>
     </header>
-    <main class="container container-fluid mt-5">
+    <main class="container container-fluid row align-center">
       <!-- Render the sub layout -->
       {{{ body }}}
     </main>
     <footer>
-      
+      <footer class="social-footer">
+  <div class="social-footer-left">
+    <a href="/"><img class="logo" src="/images/logo.png"></a>
+  </div>
+  <div>
+    <ul>
+      <a href="https://www.almanac.com/gardening/planting-calendar/zipcode">Find Your City's Plant Details</a>
+    </ul>
+  </div>
+</footer>
+
+
     </footer>
   </div>
 
