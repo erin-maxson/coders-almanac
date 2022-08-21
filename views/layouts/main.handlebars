@@ -12,54 +12,70 @@
 </head>
 
 <body>
-      <nav>
+      <nav class="row">
+        <a href="/">
+        <img src="/images/logo.png" alt="">
+        </a>
         <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
-        <nav class="top-bar topbar-responsive">
-  <div class="top-bar-title">
-    <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
-      <button class="menu-icon" type="button" data-toggle></button>
-    </span>
-    <img class="topbar-responsive-logo" href="/assets/images/coders almanac.png"></a>
-  </div>
   <div id="topbar-responsive" class="topbar-responsive-links">
     <div class="top-bar-right">
       <ul class="menu simple vertical medium-horizontal">
-        <li><a href="#">Home</a></li>
-        <li><a href="/plants">See Plants</a></li>
+        <li><a href="/" class="home">Home</a></li>
+        <li><a href="/plants" class="plants">See Plants</a></li>
           <button type="no-button" class="button hollow topbar-responsive-button" id="logout">Logout</button>
         </li>
       </ul>
     </div>
   </div>
+  <div class="marketing-site-hero image">
+  <div class="marketing-site-hero-content">
+    <h1>Welcome to The Coder's Almanac!</h1>
+    <p class="subheader">Prep for garden season by finding and adding new plants to our digital seed library!</p>
+    <a href="/form" class="addBtn">Add Plants</a>
+  </div>
+</div>
         {{else}}
        <div class="top-bar-title">
-    <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
-      <button class="menu-icon" type="button" data-toggle></button>
-    </span>
-    <img class="topbar-responsive-logo" href="/assets/images/coders almanac.png"></a>
-  </div>
   <div id="topbar-responsive" class="topbar-responsive-links">
     <div class="top-bar-right">
       <ul class="menu simple vertical medium-horizontal">
-        <li><a href="#">Home</a></li>
+        <li><a href="/" class="home">Home</a></li>
         {{!-- need to update this link over time --}}
-        <li><a href="/login">Login</a></li>
-          <button type="no-button" class="button hollow topbar-responsive-button" id="logout">Login</button>
-        </li>
+        <li><a href="/login" class="login">Login</a></li>
       </ul>
     </div>
   </div>
+  </nav>
+
+  <div class="marketing-site-hero">
+  <div class="marketing-site-hero-content">
+    <h1>Welcome to The Coder's Almanac!</h1>
+    <p class="subheader">Prep for garden season by finding and adding new plants to our digital seed library!</p>
+    <a href="/form" class="addBtn">Add Plants</a>
+  </div>
+</div>
 
         {{/if}}
       </nav>
     </header>
-    <main class="container container-fluid mt-5">
+    <main class="container container-fluid row align-center">
       <!-- Render the sub layout -->
       {{{ body }}}
     </main>
     <footer>
-      
+      <footer class="social-footer">
+  <div class="social-footer-left">
+    <a href="/"><img class="logo" src="/images/logo.png"></a>
+  </div>
+  <div>
+    <ul>
+      <a href="https://www.almanac.com/gardening/planting-calendar/zipcode">Find Your City's Plant Details</a>
+    </ul>
+  </div>
+</footer>
+
+
     </footer>
   </div>
 

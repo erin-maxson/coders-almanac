@@ -183,7 +183,7 @@ select {
   text-transform: none;
 }
 
-/**
+/* *
  * Correct the inability to style clickable types in iOS and Safari.
  */
 button,
@@ -1081,7 +1081,7 @@ a:hover {
 }
 
 .card {
-  border: 1px solid #1a1a1a;
+  border: 2px solid #353d27;
   margin-bottom: 1rem;
 }
 
@@ -1165,14 +1165,14 @@ form [type='radio'] {
 }
 
 .container {
-  width: 85%;
+  width: 100%;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .container.container-fluid {
-  width: 92%;
+  width: 100%;
 }
 
 /* FLEX CONTENT */
@@ -1252,8 +1252,8 @@ form [type='radio'] {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 [class*='col-'] {
