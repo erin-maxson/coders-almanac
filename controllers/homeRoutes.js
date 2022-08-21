@@ -38,8 +38,8 @@ router.get('/plants/:id', withAuth, async (req, res) => {
     });
 
     const plant = plantData.get({ plain: true });
-    // the 'plants', will need to be in the handlebar file name
-    res.render('plant', {
+    // the 'plantdetails', will need to be in the handlebar file name
+    res.render('plantdetails', {
       ...plant,
       logged_in: req.session.logged_in
     });
@@ -49,6 +49,7 @@ router.get('/plants/:id', withAuth, async (req, res) => {
 });
 
 // Use withAuth middleware to prevent access to route
+// this is the route for form.handlebars
 router.get('/form', withAuth, async (req, res) => {
   try {
     // Find the logged in user based on the session ID
