@@ -13,6 +13,7 @@ router.get('/', async (req, res) => {
           attributes: ['name'],
         },
       ],
+      limit: 8
     });
 
     // Serialize data so the template can read it
@@ -20,6 +21,31 @@ router.get('/', async (req, res) => {
 
     // Pass serialized data and session flag into template
     res.render('homepage', { 
+      plants, 
+      logged_in: req.session.logged_in 
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+router.get('/plants', withAuth, async (req, res) => {
+  try {
+    // Get all projects and JOIN with user data
+    const plantData = await Plant.findAll({
+      include: [
+        {
+          model: User,
+          attributes: ['name'],
+        },
+      ],
+    });
+
+    // Serialize data so the template can read it
+    const plants = plantData.map((plant) => plant.get({ plain: true }));
+
+    // Pass serialized data and session flag into template
+    res.render('plant', { 
       plants, 
       logged_in: req.session.logged_in 
     });
