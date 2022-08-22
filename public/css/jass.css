@@ -1167,8 +1167,8 @@ form [type='radio'] {
 .container {
   width: 100%;
   max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .container.container-fluid {
