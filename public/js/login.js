@@ -39,7 +39,7 @@ const signupFormHandler = async (event) => {
     });
 
     if (response.ok) {
-      document.location.replace('/plant');
+      document.location.replace('/plants');
     } else {
       alert(response.statusText);
     }
