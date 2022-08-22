@@ -1,4 +1,5 @@
 const router = require('express').Router();
+const { async } = require('rxjs');
 const { Plant, User, Comment } = require('../models');
 const withAuth = require('../utils/auth');
 
@@ -72,7 +73,7 @@ router.get('/form', withAuth, async (req, res) => {
 router.get('/login', (req, res) => {
   // If the user is already logged in, redirect the request to another route
   if (req.session.logged_in) {
-    res.redirect('/profile');
+    res.redirect('/plants');
     return;
   }
 
