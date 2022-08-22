@@ -377,6 +377,11 @@ a.addBtn {
   }
 }
 
+/* form formatting */
+form {
+  font-family: 'Work Sans', sans-serif;
+}
+
 /* footer */
 
 .social-footer {
