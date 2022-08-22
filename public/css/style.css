@@ -180,20 +180,15 @@ main {
 }
 
 /* Login form on login.handlebars */
-
-.form {
-  justify-content: center;
-  width: 50%;
-}
-
 .sign-in-form {
   padding: 1rem 1.5em;
   border-radius: .5rem;
   background-color: #353d27;
   font-family: 'Work Sans', sans-serif;
-  width: 50%;
+  width: 25%;
   align-content: center;
   margin: 20px;
+  text-align: center;
 }
 
 .sign-in-form h4 {
