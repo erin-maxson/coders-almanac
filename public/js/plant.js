@@ -19,10 +19,20 @@ const newFormHandler = async (event) => {
   if (name && plantingSeason && description) {
     const response = await fetch(`/api/plants`, {
       method: 'POST',
-      body: JSON.stringify({ name, description, plantingSeason, fallIndSeed, fallOutSeed, fallOutSeedling, springIndSeedStr, springIndSeedEnd, springOutSeedStr, springOutSeedEnd, springTransStr, springTransEnd }),
       headers: {
         'Content-Type': 'application/json',
       },
+      body: JSON.stringify({ 
+        name: name, 
+        description: description, 
+        plant_Season: plantingSeason, 
+        fall_ind_seed: fallIndSeed, 
+        fall_out_seed: fallOutSeed, 
+        fall_out_seedling: fallOutSeedling, 
+        spring_ind_seedStr: springIndSeedStr, spring_ind_seedEnd: springIndSeedEnd, spring_out_seedStr: springOutSeedStr, spring_out_seedEnd: springOutSeedEnd, 
+        spring_transStr: springTransStr, 
+        spring_transEnd: springTransEnd }),
+      
     });
 
     if (response.ok) {
