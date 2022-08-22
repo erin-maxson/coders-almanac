@@ -2,8 +2,8 @@ const loginFormHandler = async (event) => {
   event.preventDefault();
 
   // Collect values from the login form
-  const email = document.querySelector('#email-login').value.trim();
-  const password = document.querySelector('#password-login').value.trim();
+  const email = document.querySelector('#login-form-username').value.trim();
+  const password = document.querySelector('#login-form-password').value.trim();
 
   if (email && password) {
     // Send a POST request to the API endpoint
@@ -27,9 +27,9 @@ const loginFormHandler = async (event) => {
 const signupFormHandler = async (event) => {
   event.preventDefault();
 
-  const name = document.querySelector('#full-name').value.trim();
-  const email = document.querySelector('#email').value.trim();
-  const password = document.querySelector('#pass').value.trim();
+  const name = document.querySelector('#sign-in-form-name').value.trim();
+  const email = document.querySelector('#sign-in-form-username').value.trim();
+  const password = document.querySelector('#sign-in-form-password').value.trim();
 
   if (name && email && password) {
     const response = await fetch('/api/users', {
