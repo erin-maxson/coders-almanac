@@ -6,7 +6,7 @@
       <img src="images/plants/{{plant.filename}}">
     </div>
     <div class="card-section">
-      <h3 class="article-title">{{plant.name}}</h3>
+      <h3 class="article-title"><a href="/plantdetails/{{id}}">{{plant.name}}</a></h3>
       <p class="season">{{plant.plantSeason}}</p>
       <p class="article-summary">{{plant.description}}</p>
     </div>
@@ -18,4 +18,18 @@
   </div>
   </div>
 {{/each}}
+
+  {{#if logged_in}}
+<div>
+  <button><a href="/plants">View All Plants
+    </a>
+  </button>
+</div>
+  {{else}}
+<div>
+  <button><a href="/login"></a>View All Plants
+    </a>
+  </button>
+</div>
+{{/if}}
 </div>
