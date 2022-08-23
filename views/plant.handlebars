@@ -1,36 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>The Coder's Almanac - All Plants</title>
-  <link rel="stylesheet" href="/css/jass.css">
-  <link rel="stylesheet" href="/css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;400&display=swap" rel="stylesheet">
-</head>
-
-<div class="row">
-{{#each plants as |plant|}}
-<div class="card-sizing">
-  <div class="card-flex-article card column medium-3">
-    <div class="card-image">
-      <img src="images/plants/{{plant.filename}}">
-    </div>
-    <div class="card-section">
-      <h3 class="article-title"><a href="/plants/{{id}}">{{plant.name}}</a></h3>
-      <p class="season">{{plant.plantSeason}}</p>
-      <p class="article-summary">{{plant.description}}</p>
-    </div>
-    <div class="card-divider align-middle">
-      <div class="user-info">
-        <p class="user-name">Added by {{user.name}}</p>
+  {{#each plants as |plant|}}
+  <div class="card-sizing">
+    <div class="card-flex-article card column medium-3">
+      <div class="card-image">
+        <img src="images/plants/{{plant.filename}}">
+      </div>
+      <div class="card-section">
+        <h3 class="article-title"><a href="/plants/{{id}}">{{plant.name}}</a></h3>
+        <p class="season">{{plant.plantSeason}}</p>
+        <p class="article-summary">{{plant.description}}</p>
+      </div>
+      <div class="card-divider align-middle">
+        <div class="user-info">
+          <p class="user-name">Added by {{user.name}}</p>
+        </div>
       </div>
     </div>
   </div>
-  </div>
-  </div>
 {{/each}}
-</div>
-
