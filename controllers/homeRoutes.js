@@ -13,7 +13,7 @@ router.get('/', async (req, res) => {
           attributes: ['name'],
         },
       ],
-      limit: 8
+      limit: 9
     });
 
     // Serialize data so the template can read it

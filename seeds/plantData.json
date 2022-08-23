@@ -135,7 +135,7 @@
   },
   {
     "name": "Cucumbers",
-    "description": "An easy-care vegetable that loves sun and water, cucumbers grow quicly as long as they receive consistent watering and warmth.",
+    "description": "Cucumbers grow quicly as long as they receive consistent watering and warmth.",
     "filename": "cucumbers.jpg",
     "fall_out_seed": "2022-07-17",
     "spring_ind_seedStr": "2022-03-30",
@@ -146,7 +146,7 @@
   },
   {
     "name": "Dill", 
-    "description": "With its feathery green leaves, fragrant dill is used most commnly in soups and stews or for pickling.",
+    "description": "Fragrant dill is used most commnly in soups and stews or for pickling.",
     "filename": "dill.jpg",
     "spring_out_seedStr": "2022-04-27",
     "spring_ind_seedEnd": "2022-06-01",
@@ -166,7 +166,7 @@
   },
   {
     "name": "Green Beans",
-    "description": "Green beans are a staple of so many vegetable gardens because they are so easy to grow—even in limited space—and incredibly productive!",
+    "description": "Green beans are a staple because they are so easy to grow—even in limited space—and incredibly productive!",
     "filename": "green-beans.jpg",
     "fall_out_seed": "2022-07-17",
     "spring_out_seedStr": "2022-05-04",
@@ -187,7 +187,7 @@
   },
   {
     "name": "Kale",
-    "description": "Kale is one of the most nutritious vegetables you can grow. It’s crammed with vitamins and powerful antioxidants, and it tastes delicious.",
+    "description": "Kale is one of the most nutritious vegetables you can grow.",
     "filename": "kale.jpg",
     "fall_ind_seed": "2022-07-29",
     "fall_out_seedling": "2022-08-26",
@@ -199,7 +199,7 @@
   },
   {
     "name": "Kohlrabi",
-    "description": "Kohlrabi is a cool-season vegetable, often overlooked because of its strange, almost alien appearance.",
+    "description": "Kohlrabi is a cool-season vegetable, often overlooked because of its strange appearance.",
     "filename": "kohlrabi.jpg",
     "fall_out_seed": "2022-08-31",
     "spring_ind_seedStr": "2022-03-16",
@@ -210,7 +210,7 @@
   },
   {
     "name": "Lettuce",
-    "description": "If you haven’t tasted fresh homegrown lettuce, you’re missing out. It’s far superior in both taste and vitamin A content, to the store-bought alternative.",
+    "description": "The fresh homegrown lettuce is far superior in both taste and vitamin A content, to the store-bought alternative.",
     "filename": "lettuce.jpg",
     "fall_out_seed": "2022-09-10",
     "spring_ind_seedStr": "2022-03-16",
@@ -221,7 +221,7 @@
   },
   {
     "name": "Okra",
-    "description": "Okra thrives in warm weather and is traditionally grown in the southern U.S., though there are varieties for northern growers, too.",
+    "description": "Okra thrives in warm weather and is traditionally grown in the southern U.S.",
     "filename": "okra.jpg",
     "fall_out_seed": "2022-07-12",
     "spring_out_seedStr": "2022-05-11",
@@ -265,7 +265,7 @@
   },
   {
     "name": "Peas",
-    "description": "Peas are one of the season’s first crops, planted as soon as the ground can be worked, even if snow falls afterwards.",
+    "description": "Peas are one of the season’s first crops, planted as soon as the ground can be worked.",
     "filename": "peas.jpg",
     "fall_out_seed": "2022-08-16",
     "spring_out_seedStr": "2022-03-16",
@@ -274,7 +274,7 @@
   },
   {
     "name": "Potatoes", 
-    "description": "The taste and texture of homegrown potatoes are far superior to those of store-bought spuds! Garden “taters” also provide a bounty of nutrients.",
+    "description": "The taste and texture of homegrown potatoes are far superior to those of store-bought spuds!",
     "filename": "potatoes.jpg",
     "fall_out_seed": "2022-08-06",
     "spring_out_seedStr": "2022-04-20",
@@ -283,7 +283,7 @@
   },
   {
     "name": "Pumpkins",
-    "description": "Whether you use them for carving or cooking, pumpkins do not disappoint—if you have the space to grow them.",
+    "description": "Pumpkins do not disappoint—if you have the space to grow them.",
     "filename": "pumpkins.jpg",
     "fall_out_seed": "2022-06-02",
     "spring_ind_seedStr": "2022-04-06",
@@ -303,7 +303,7 @@
   },
   {
     "name": "Rosemary", 
-    "description": "Rosemary is a perennial evergreen shrub with blue flowers. It’s an aromatic and distinctive herb with a sweet, resinous flavor.", 
+    "description": "Rosemary is a perennial evergreen shrub with blue flowers. It’s an aromatic and distinctive herb.", 
     "filename": "rosemary.jpg",
     "spring_ind_seedStr": "2022-02-15",
     "spring_ind_seedEnd": "2022-03-01",
@@ -313,7 +313,7 @@
   },
   {
     "name": "Sage", 
-    "description": "Garden sage is easy to grow—and a wonderful culinary herb that flavors meat and bean dishes (including that Thanksgiving stuffing).",
+    "description": "Garden sage is easy to grow—and a wonderful culinary herb that flavors meat and bean dishes",
     "filename": "sage.jpg",
     "spring_ind_seedStr": "2022-03-01",
     "spring_ind_seedEnd": "2022-03-16",
@@ -323,7 +323,7 @@
   },
   {
     "name": "Spinach",
-    "description": "Spinach, a super–cold-hardy leafy green, is a popular crop that can be planted in very early spring, as well as in fall and even winter in some areas.",
+    "description": "Spinach is a popular crop that can be planted in very early spring, as well as in fall and even winter in some areas.",
     "filename": "spinach.jpg",
     "fall_out_seed": "2022-09-25",
     "spring_out_seedStr": "2022-03-16",
@@ -332,7 +332,7 @@
   },
   {
     "name": "Sweet Potatoes",
-    "description": "Just a few sweet potato plants can produce a generous harvest of this nutritious, sweet-tasting root vegetable.",
+    "description": "Sweet potato plants can produce a generous harvest of this nutritious, sweet-tasting root vegetable.",
     "filename": "sweet-potatoes.jpg",
     "fall_ind_seed": "2022-05-18",
     "fall_out_seedling": "2022-06-22",
@@ -342,7 +342,7 @@
   },
   {
     "name": "Swiss Chard", 
-    "description": "Chard is a nutritional superfood, high in vitamins A, C, and K, as well as minerals, phytonutrients, and fiber.",
+    "description": "Chards are high in vitamins A, C, and K, as well as minerals, phytonutrients, and fiber.",
     "filename": "swiss-chard.jpg",
     "fall_out_seed": "2022-09-10",
     "spring_ind_seedStr": "2022-03-16",
@@ -363,7 +363,7 @@
   },
   {
     "name": "Tomatoes", 
-    "description": "Tomato plants are tender warm-season crops that love the sun and cannot bear frost. It’s important not to put plants in the ground too early.",
+    "description": "Tomato plants are tender warm-season crops that love the sun and cannot bear frost.",
     "filename": "tomatoes.jpg",
     "fall_ind_seed": "2022-05-12",
     "fall_out_seedling": "2022-07-07",
@@ -375,7 +375,7 @@
   },
   {
     "name": "Turnips",
-    "description": "Turnips are cool-weather vegetables that can be grown both in spring and fall. They mature quickly and both the bright greens and roots can be enjoyed.",
+    "description": "Turnips are cool-weather vegetables that can be grown both in spring and fall.",
     "filename": "turnips.jpg",
     "fall_out_seed": "2022-09-10",
     "spring_out_seedStr": "2022-03-30",
@@ -384,7 +384,7 @@
   },
   {
     "name": "Watermelons",
-    "description": "Native to Africa, melons require warm temperatures and a long growing season. By late summer, they should be just about ready to harvest!",
+    "description": "Native to Africa, melons require warm temperatures and a long growing season.",
     "filename": "watermelons.jpg",
     "fall_out_seed": "2022-06-22",
     "spring_ind_seedStr": "2022-03-30",
@@ -395,7 +395,7 @@
   },
   {
     "name": "Winter Squash",
-    "description": "Growing winter squash requires some patience, but this garden vegetable is well worth the wait—and most varieties have a long shelf life after harvest.",
+    "description": "Growing winter squash requires some patience, but worth the wait with long shelf life.",
     "filename": "winter-squash.jpg",
     "fall_out_seed": "2022-07-07",
     "spring_out_seedStr": "2022-05-11",
@@ -404,7 +404,7 @@
   },
   {
     "name": "Zucchini",
-    "description": "Zucchini is known to be staggeringly productive. They are Erin's favorite crop to grow! :)",
+    "description": "Zucchini is known to be staggeringly productive. Erin's Fav!",
     "filename": "zucchini.jpg",
     "fall_out_seed": "2022-07-22",
     "spring_out_seedStr": "2022-05-11",
