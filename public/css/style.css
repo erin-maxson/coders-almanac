@@ -340,14 +340,15 @@ padding: 25px;
 /* plant details page */
 .work-feature-block {
   padding: 10px 0;
-  border-top: 1px solid #cacaca;
-  border-bottom: 1px solid #cacaca;
+  font-family: 'Work Sans', sans-serif;
+  margin: 20px;
 }
 
 .work-feature-block-image {
   display: block;
   margin: auto;
   padding: 10px 0;
+  width: 400px;
 }
 
 /* add a plant form button on main (once logged in) */
