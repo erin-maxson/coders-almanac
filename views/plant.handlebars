@@ -13,6 +13,7 @@
 
 <div class="row">
 {{#each plants as |plant|}}
+<div class="card-sizing">
   <div class="card-flex-article card column medium-3">
     <div class="card-image">
       <img src="images/plants/{{plant.filename}}">
@@ -27,6 +28,7 @@
         <p class="user-name">Added by {{user.name}}</p>
       </div>
     </div>
+  </div>
   </div>
   </div>
 {{/each}}
