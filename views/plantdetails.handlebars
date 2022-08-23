@@ -15,15 +15,17 @@
   <div class="columns medium-7">
     <img class="work-feature-block-image" src="/images/plants/{{plant.filename}}"/>
   </div>
+  <br>
   <div class="columns medium-5">
     <h2 class="work-feature-block-header">Plant Description</h2>
     <p>{{plant.description}}</p>
     <h2>Planting Details</h2>
     <ul>
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
-      <li>Item 4</li>
+      <li>🌱 Main Planting Season: {{plant.plant_Season}}</li>
+      <li>🪴 Fall Seeding Date (Indoor): {{plant.fall_ind-seed}}</li>
+      <li>🍁 Fall Seeding Date (Outdoor): {{plant.fall_out_seed}}</li>
+      <li>🌷 Spring Seeding Dates (Indoor): {{plant.spring_ind_seedStr}}-{{plant.spring_ind_seedEnd}}</li>
+      <li>🌸 Spring Seeding Dates (Outdoor): {{plant.spring_out_seedStr}}-{{plant.spring_out_seedEnd}}</li>
     </ul>
   </div>
 </div>

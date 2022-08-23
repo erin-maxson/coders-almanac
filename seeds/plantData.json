@@ -29,7 +29,7 @@
   },
   {
     "name": "Bell Peppers",
-    "description": "Peppers are a warm-season crop and come in a variety of colors, shapes, and sizes. These are great to add to salads!",
+    "description": "Peppers are a warm-season crop and come in a variety of colors, shapes, and sizes. Add one to your salad!",
     "filename": "bell-peppers.jpg",
     "fall_ind_seed": "2022-05-07",
     "fall_out_seedling": "2022-07-02",
@@ -118,7 +118,7 @@
   },
   {
     "name": "Cilantro",
-    "description": "Cilantro is a fast-growin, aromatic, annual herb that grows best in the cooler weather of spring and fall.", 
+    "description": "Cilantro is a fast-growing, aromatic, annual herb that grows best in the cooler weather of spring and fall.", 
     "filename": "cilantro.jpg",
     "spring_out_seedStr": "2022-04-27",
     "spring_out_seedEnd": "2022-05-11",
@@ -126,7 +126,7 @@
   },
   {
     "name": "Corn",
-    "description": "Corn is a tender, warm-season annual crop that produces ears of yellow, white, or bi-colored kernels.",
+    "description": "Corn is a tender annual crop that produces ears of yellow, white, or bi-colored kernels.",
     "filename": "corn.jpg",
     "fall_out_seed": "2022-07-12",
     "spring_out_seedStr": "2022-05-11",
