@@ -67,7 +67,7 @@ router.get('/plants/:id', withAuth, async (req, res) => {
     const plant = plantData.get({ plain: true });
     // the 'plantdetails', will need to be in the handlebar file name
     res.render('plantdetails', {
-      ...plant,
+      plant,
       logged_in: req.session.logged_in
     });
   } catch (err) {
