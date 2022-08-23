@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>The Coder's Almanac</title>
+  <link rel="stylesheet" href="/css/jass.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+      <nav class="row">
+        <a href="/">
+        <img src="/images/logo.png" alt="">
+        </a>
+        <!-- Conditionally render login or logout links -->
+        {{#if logged_in}}
+  <div id="topbar-responsive" class="topbar-responsive-links">
+    <div class="top-bar-right">
+      <ul class="menu simple vertical medium-horizontal">
+        <li><a href="/" class="home">Home</a></li>
+        <li><a href="/plants" class="plants">See Plants</a></li>
+          <button type="no-button" class="button hollow topbar-responsive-button" id="logout">Logout</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="marketing-site-hero image">
+  <div class="marketing-site-hero-content">
+    <h1>Welcome to The Coder's Almanac!</h1>
+    <p class="subheader">Prep for garden season by finding and adding new plants to our digital seed library!</p>
+    <a href="/form" class="addBtn">Add Plants</a>
+  </div>
+</div>
+        {{else}}
+       <div class="top-bar-title">
+  <div id="topbar-responsive" class="topbar-responsive-links">
+    <div class="top-bar-right">
+      <ul class="menu simple vertical medium-horizontal">
+        <li><a href="/" class="home">Home</a></li>
+        {{!-- need to update this link over time --}}
+        <li><a href="/login" class="login">Login</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+
+  <div class="marketing-site-hero">
+  <div class="marketing-site-hero-content">
+    <h1>Welcome to The Coder's Almanac!</h1>
+    <p class="subheader">Prep for garden season by finding and adding new plants to our digital seed library!</p>
+  </div>
+</div>
+
+        {{/if}}
+      </nav>
+    </header>
+    <main class="container container-fluid row align-center">
+      <!-- Render the sub layout -->
+      {{{ body }}}
+    </main>
+    <footer>
+      <footer class="social-footer">
+  <div class="social-footer-left">
+    <a href="/"><img class="logo" src="/images/logo.png"></a>
+  </div>
+  <div>
+    <ul>
+      <a href="https://www.almanac.com/gardening/planting-calendar/zipcode">Start Planting in Your City!</a>
+    </ul>
+  </div>
+</footer>
+
+
+    </footer>
+  </div>
+
+  <!-- Render script for logged in users only -->
+  {{#if logged_in}}
+  <script src="/js/logout.js"></script>
+  {{/if}}
+</body>
+
+</html>

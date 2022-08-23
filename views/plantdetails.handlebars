@@ -1,0 +1,21 @@
+
+<div class="work-feature-block row">
+  <div class="columns medium-7">
+    <img class="work-feature-block-image" src="/images/plants/{{plant.filename}}"/>
+  </div>
+  <br>
+  <div class="columns medium-5">
+    <h1>{{plant.name}}</h1>
+    <h3 class="work-feature-block-header">Plant Description</h3>
+    <p>{{plant.description}}</p>
+    <h3>Planting Details</h2>
+    <ul>
+      <li>🌱 Main Planting Season: {{plant.plant_Season}}</li>
+      <li>🪴 Fall Seeding Date (Indoor): {{plant.fall_ind-seed}}</li>
+      <li>🍁 Fall Seeding Date (Outdoor): {{plant.fall_out_seed}}</li>
+      <li>🌷 Spring Seeding Dates (Indoor): {{plant_Season.spring_ind_seedStr}} to {{plant.spring_ind_seedEnd}}</li>
+      <li>🌸 Spring Seeding Dates (Outdoor): {{plant.spring_out_seedStr}} to {{plant.spring_out_seedEnd}}</li>
+    </ul>
+  </div>
+</div>
+

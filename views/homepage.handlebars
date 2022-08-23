@@ -1,0 +1,37 @@
+
+<!-- Loop over each object in the plants array -->
+{{#each plants as |plant|}}
+  <div class="card-sizing">
+  <div class="card-flex-article card medium-3">
+    <div class="card-image">
+      <img src="images/plants/{{plant.filename}}">
+    </div>
+    <div class="card-section">
+      <h3 class="article-title"><a href="/plants/{{id}}">{{plant.name}}</a></h3>
+      <p class="season">{{plant.plantSeason}}</p>
+      <p class="article-summary">{{plant.description}}</p>
+    </div>
+    <div class="card-divider align-middle">
+      <div class="user-info">
+        <p class="user-name">Added by {{user.name}}</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+{{/each}}
+
+  {{#if logged_in}}
+<div>
+  <button class="viewBtn"><a href="/plants">View All Plants
+    </a>
+  </button>
+</div>
+  {{else}}
+<div>
+  <button class="viewBtn"><a href="/login">View All Plants
+    </a>
+  </button>
+</div>
+{{/if}}
+</div>
