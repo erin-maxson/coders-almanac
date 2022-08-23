@@ -34,13 +34,16 @@ router.get('/:id', async (req,res) => {
 
 router.post('/', withAuth, async (req, res) => {
   try {
+    console.log(req.body)
     const newPlant = await Plant.create({
       ...req.body,
+      filename: '',
       user_id: req.session.user_id,
     });
 
     res.status(200).json(newPlant);
   } catch (err) {
+    console.log(err)
     res.status(400).json(err);
   }
 });
