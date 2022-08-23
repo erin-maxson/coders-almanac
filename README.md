@@ -28,11 +28,11 @@ To open up the application outside of terminal, the user should go to http://loc
 The intended use of this application is to find and upload plant seed data to our digital seed library.
 
 The user can find all plants and their seed information through the homepage cards. After clicking on the plant cards, the user will be taken to the plant details page where they will find the planting and seasonal information related to the plant. 
-![homepage](public/images/home.png)
-![plant details page](public/images/details.png)
+![homepage](public/images/screenshots/home.png)
+![plant details page](public/images/screenshots/details.png)
 
 If a user wants to add more details about their seeds or plants not currently listed in the digital library, they can add a new plant through our "Add a New Plant" form that includes all of the seeding dates.
-![add new plant form](public/images/addplant.png)
+![add new plant form](public/images/screenshots/addplant.png)
 
 See the full application video here: (https://www.youtube.com/watch?v=0iCqN_xj-bU)
 
