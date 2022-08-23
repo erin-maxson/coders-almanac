@@ -1,7 +1,7 @@
 [
   {
     "name": "Arugula",
-    "description": "Also known as “rocket” or “roquette,” arugula is a fast-growing, cool-season leafy green that adds a tangy, mustard-like flavor to salads.",
+    "description": "Arugula is a fast-growing, cool-season leafy green that adds a tangy, mustard-like flavor to salads.",
     "filename": "arugula.jpg",
     "fall_out_seed": "2022-09-15",
     "spring_out_seedStr": "2022-04-13",
@@ -20,7 +20,7 @@
   },
   {
     "name": "Beets",
-    "description": "Beets grow easily and you won’t have to wait long to harvest their tasty roots. You can eat their green tops, too, so they’re a dual-purpose crop!",
+    "description": "Beets grow easily and you won’t have to wait long to harvest their tasty roots. You can eat their green tops, too.",
     "filename": "beets.jpg",
     "fall_out_seed": "2022-09-05",
     "spring_out_seedStr": "2022-04-13",
@@ -29,7 +29,7 @@
   },
   {
     "name": "Bell Peppers",
-    "description": "Peppers are a warm-season crop and come in a variety of colors, shapes, and sizes.",
+    "description": "Peppers are a warm-season crop and come in a variety of colors, shapes, and sizes. These are great to add to salads!",
     "filename": "bell-peppers.jpg",
     "fall_ind_seed": "2022-05-07",
     "fall_out_seedling": "2022-07-02",
@@ -66,7 +66,7 @@
   },
   {
     "name": "Cantaloupe",
-    "description": "Cantaloupes are a delicious, heat-loving melon with a relatively long growing season, making them especially well-suited for southern gardeners.",
+    "description": "Cantaloupes are a delicious, heat-loving melon with a relatively long growing season. Sweet and delicious!",
     "filename": "canteloupe.jpg",
     "fall_out_seed": "2022-06-22",
     "spring_ind_seedStr": "2022-03-30",
@@ -77,7 +77,7 @@
   },
   {
     "name": "Carrots",
-    "description": "Everyone enjoys a sweet, crunchy carrot! Carrots are an excellent source of vitamin A.",
+    "description": "Everyone enjoys a sweet, crunchy carrot! Carrots are an excellent source of vitamin A. And rabbits love them.",
     "filename": "carrots.jpg",
     "fall_out_seed": "2022-08-31",
     "spring_out_seedStr": "2022-03-23",

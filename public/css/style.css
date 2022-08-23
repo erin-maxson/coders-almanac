@@ -250,15 +250,21 @@ main {
 }
 
 /* plant cards on homepage */
+
+.card-sizing {
+  width: 25%;
+  /* height: 500px; */
+  margin: 10px;
+}
+
 .card {
   background-color: #ffffff;
-  width: 20%;
-  height: 500px;
-  margin: 10px;
+  height: 476px;
 }
 
 .card img {
   width: 100%;
+  height: 200px;
 }
 
 .card-flex-article .card-divider {
