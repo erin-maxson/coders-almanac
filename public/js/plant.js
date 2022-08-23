@@ -23,7 +23,7 @@ const newFormHandler = async (event) => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({ 
-        name: name, 
+        name: name,
         description: description, 
         plant_Season: plantingSeason, 
         fall_ind_seed: fallIndSeed, 
