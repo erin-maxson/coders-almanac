@@ -1,7 +1,6 @@
-
 <!-- Loop over each object in the plants array -->
 {{#each plants as |plant|}}
-  <div class="card-sizing">
+<div class="card-sizing">
   <div class="card-flex-article card medium-3">
     <div class="card-image">
       <img src="images/plants/{{plant.filename}}">
@@ -17,21 +16,22 @@
       </div>
     </div>
   </div>
-  </div>
-  </div>
+</div>
+</div>
 {{/each}}
 
-  {{#if logged_in}}
-<div>
-  <button class="viewBtn"><a href="/plants">View All Plants
-    </a>
-  </button>
-</div>
+{{#if logged_in}}
+<div class="w-100">
+  <div>
+    <button class="viewBtn"><a href="/plants">View All Plants
+      </a>
+    </button>
+  </div>
   {{else}}
-<div>
-  <button class="viewBtn"><a href="/login">View All Plants
-    </a>
-  </button>
-</div>
-{{/if}}
+  <div>
+    <button class="viewBtn"><a href="/login">View All Plants
+      </a>
+    </button>
+  </div>
+  {{/if}}
 </div>

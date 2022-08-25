@@ -184,16 +184,14 @@ a:hover {
   border-radius: 200px;
   padding: 10px;
   justify-content: center;
+
 }
 
 /* main card formatting */
 .container {
-  flex-direction: row;
   align-items: center;
-}
-
-main {
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 /* Login form on login.handlebars */
@@ -263,12 +261,14 @@ main {
 .card-sizing {
   width: 25%;
   /* height: 500px; */
-  margin: 10px;
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
 }
 
 .card {
   background-color: #ffffff;
-  height: 476px;
+  height: 100%;
 }
 
 .card img {
